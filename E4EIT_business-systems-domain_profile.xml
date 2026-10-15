@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="53c541cc-e523-5b92-bf9e-1080235ff750">
+   <metadata>
+      <title>Assessment evidence guide for enterprise IT - Business systems OSCAL Profile</title>
+      <published>2026-10-15T00:30:23Z</published>
+      <last-modified>2026-10-15T00:30:23Z</last-modified>
+      <version>2026.10.15</version>
+      <oscal-version>1.2.3</oscal-version>
+      <prop name="domain"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="business-systems"/>
+      <prop name="domain-description"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="Supporting enterprise functions that collectively enable organisational operations."/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-3"/>
+      <link rel="canonical" href="#563490ac-709b-56a2-a1f5-e577d170f29c"/>
+      <link rel="latest-version" href="#37fc6fff-5996-58bf-a416-26bd63cf30fb"/>
+      <link rel="predecessor-version" href="#185dee67-d441-56c6-b035-a5fd5f82827e"/>
+      <link rel="successor-version" href="#8d430ed9-38bb-5ff6-b2fa-f06e727d4b07"/>
+      <link rel="alternate" href="#2b2706f4-c3ed-562a-a98b-78c55c0cc335"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="74026bf1-dc78-5449-9c72-aa23782b15f0">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="website"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>74026bf1-dc78-5449-9c72-aa23782b15f0</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>Consumers of this file should refer to the <a href="#01422798-1d17-5304-a5b1-5bcb98dd036b">Essentials OSCAL NS 1.0</a> page for information regarding the Essentials specific representation used in this OSCAL file.</p>
+      </remarks>
+   </metadata>
+   <import href="#98b4d115-df59-52c8-a878-3830c414d32c">
+      <include-controls>
+         <with-id>IT.IDE-01.2</with-id>
+         <with-id>IT.PRO-01.1</with-id>
+         <with-id>IT.PRO-01.2</with-id>
+         <with-id>IT.PRO-16.1</with-id>
+         <with-id>IT.PRO-13.1</with-id>
+         <with-id>IT.PRO-13.2</with-id>
+         <with-id>IT.PRO-13.4</with-id>
+         <with-id>IT.PRO-13.5</with-id>
+         <with-id>IT.PRO-13.6</with-id>
+         <with-id>IT.PRO-12.1</with-id>
+         <with-id>IT.PRO-04.1</with-id>
+         <with-id>IT.PRO-04.2</with-id>
+         <with-id>IT.PRO-04.3</with-id>
+         <with-id>IT.PRO-06.1</with-id>
+         <with-id>IT.PRO-06.2</with-id>
+         <with-id>IT.PRO-06.3</with-id>
+         <with-id>IT.PRO-07.1</with-id>
+         <with-id>IT.PRO-07.2</with-id>
+         <with-id>IT.PRO-10.1</with-id>
+         <with-id>IT.PRO-10.2</with-id>
+         <with-id>IT.PRO-10.3</with-id>
+         <with-id>IT.PRO-18.1</with-id>
+         <with-id>IT.PRO-18.2</with-id>
+         <with-id>IT.PRO-09.1</with-id>
+         <with-id>IT.DET-01.1</with-id>
+         <with-id>IT.DET-01.2</with-id>
+         <with-id>IT.DET-02.1</with-id>
+      </include-controls>
+   </import>
+   <merge>
+      <as-is>true</as-is>
+   </merge>
+   <back-matter>
+      <resource uuid="563490ac-709b-56a2-a1f5-e577d170f29c">
+         <title>Assessment evidence guide for enterprise IT - Business systems OSCAL Profile v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_business-systems-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_business-systems-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_business-systems-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="37fc6fff-5996-58bf-a416-26bd63cf30fb">
+         <title>Assessment evidence guide for enterprise IT - Business systems OSCAL Profile - latest version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_business-systems-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_business-systems-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_business-systems-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="185dee67-d441-56c6-b035-a5fd5f82827e">
+         <title>Assessment evidence guide for enterprise IT - Business systems OSCAL Profile v2026.10.15 - predecessor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_business-systems-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_business-systems-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_business-systems-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="8d430ed9-38bb-5ff6-b2fa-f06e727d4b07">
+         <title>Assessment evidence guide for enterprise IT - Business systems OSCAL Profile v2026.10.15 - successor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_business-systems-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_business-systems-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_business-systems-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="98b4d115-df59-52c8-a878-3830c414d32c">
+         <title>Assessment evidence guide for enterprise IT OSCAL catalog v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml" href="E4EIT_catalog.xml"/>
+         <rlink media-type="application/json" href="E4EIT_catalog.json"/>
+         <rlink media-type="application/oscal+yaml" href="E4EIT_catalog.yaml"/>
+      </resource>
+      <resource uuid="2b2706f4-c3ed-562a-a98b-78c55c0cc335">
+         <title>Assessment evidence guide for enterprise IT</title>
+         <prop name="published" value="2026-10-15T00:00:00+11:00"/>
+         <prop name="version" value="2026-10-15"/>
+         <rlink media-type="application/pdf"
+                href="https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf"/>
+      </resource>
+      <resource uuid="01422798-1d17-5304-a5b1-5bcb98dd036b">
+         <title>Essentials OSCAL NS 1.0</title>
+         <rlink href="https://www.cyber.gov.au/ns/essentials/oscal/1.0"/>
+      </resource>
+   </back-matter>
+</profile>

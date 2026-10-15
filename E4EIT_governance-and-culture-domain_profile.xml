@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="17add7e0-8848-564d-a70a-670a6f876708">
+   <metadata>
+      <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile</title>
+      <published>2026-10-15T00:30:23Z</published>
+      <last-modified>2026-10-15T00:30:23Z</last-modified>
+      <version>2026.10.15</version>
+      <oscal-version>1.2.3</oscal-version>
+      <prop name="domain"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="governance-and-culture"/>
+      <prop name="domain-description"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="Policies, risk management processes, roles and security culture that underpin the cyber security program."/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-1"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-2"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-3"/>
+      <link rel="canonical" href="#d1c97d9d-457b-5655-bbca-d92ac2bdf617"/>
+      <link rel="latest-version" href="#d51b50ff-a01f-5c21-948e-d4e74f21a597"/>
+      <link rel="predecessor-version" href="#ed3e9e66-e902-57fc-b1f6-9354548edb9a"/>
+      <link rel="successor-version" href="#32431263-f6df-5eeb-9693-f57c00023c38"/>
+      <link rel="alternate" href="#211ff658-86c9-50e9-bacf-ee7f932ac402"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="aa1aa1b7-e49e-526e-8649-02711a826b8a">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="website"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>aa1aa1b7-e49e-526e-8649-02711a826b8a</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>Consumers of this file should refer to the <a href="#def78f32-7cf5-50bc-890e-20875010bc73">Essentials OSCAL NS 1.0</a> page for information regarding the Essentials specific representation used in this OSCAL file.</p>
+      </remarks>
+   </metadata>
+   <import href="#0ffc941f-9304-5641-b737-f8463a0a1aa6">
+      <include-controls>
+         <with-id>IT.GOV-01.1</with-id>
+         <with-id>IT.GOV-08.1</with-id>
+         <with-id>IT.GOV-04.1</with-id>
+         <with-id>IT.GOV-04.2</with-id>
+         <with-id>IT.GOV-03.1</with-id>
+         <with-id>IT.GOV-11.1</with-id>
+         <with-id>IT.GOV-11.2</with-id>
+         <with-id>IT.GOV-14.1</with-id>
+         <with-id>IT.PRO-14.2</with-id>
+      </include-controls>
+   </import>
+   <merge>
+      <as-is>true</as-is>
+   </merge>
+   <back-matter>
+      <resource uuid="d1c97d9d-457b-5655-bbca-d92ac2bdf617">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="d51b50ff-a01f-5c21-948e-d4e74f21a597">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile - latest version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="ed3e9e66-e902-57fc-b1f6-9354548edb9a">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile v2026.10.15 - predecessor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="32431263-f6df-5eeb-9693-f57c00023c38">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile v2026.10.15 - successor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="0ffc941f-9304-5641-b737-f8463a0a1aa6">
+         <title>Assessment evidence guide for enterprise IT OSCAL catalog v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml" href="E4EIT_catalog.xml"/>
+         <rlink media-type="application/json" href="E4EIT_catalog.json"/>
+         <rlink media-type="application/oscal+yaml" href="E4EIT_catalog.yaml"/>
+      </resource>
+      <resource uuid="211ff658-86c9-50e9-bacf-ee7f932ac402">
+         <title>Assessment evidence guide for enterprise IT</title>
+         <prop name="published" value="2026-10-15T00:00:00+11:00"/>
+         <prop name="version" value="2026-10-15"/>
+         <rlink media-type="application/pdf"
+                href="https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf"/>
+      </resource>
+      <resource uuid="def78f32-7cf5-50bc-890e-20875010bc73">
+         <title>Essentials OSCAL NS 1.0</title>
+         <rlink href="https://www.cyber.gov.au/ns/essentials/oscal/1.0"/>
+      </resource>
+   </back-matter>
+</profile>

@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="6537ff7a-978a-58bd-92cf-263919bb432c">
+   <metadata>
+      <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Resolved Catalog</title>
+      <published>2026-10-15T00:30:23Z</published>
+      <last-modified>2026-10-15T00:30:23Z</last-modified>
+      <version>2026.10.15</version>
+      <oscal-version>1.2.3</oscal-version>
+      <prop name="domain"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="visibility-and-response"/>
+      <prop name="domain-description"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="Procedures and capabilities for detecting, analysing and responding to cyber security events and incidents."/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-1"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-2"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-3"/>
+      <prop name="resolution-tool"
+            value="OSCAL Profile Resolver XSLT Pipeline OPRXP"/>
+      <link href="#8e0d09de-e42a-57de-be50-2f5fe77bb184" rel="source-profile"/>
+      <link rel="canonical" href="#18f51d14-2009-5233-9ab1-59e7eb2d9ba3"/>
+      <link rel="latest-version" href="#4faa6ef6-2fec-558a-b5e7-e463c5e2d223"/>
+      <link rel="predecessor-version" href="#d84175f1-534d-554d-afe4-577f476a6f4b"/>
+      <link rel="successor-version" href="#e383244b-41cf-5ec3-a9ad-0a14d3756c6d"/>
+      <link rel="alternate" href="#517e8871-7c0d-531e-9c4b-47b4aec18c14"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="fb179d7e-bfd5-5daf-af3d-8e4001afedb2">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="website"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>fb179d7e-bfd5-5daf-af3d-8e4001afedb2</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>Consumers of this file should refer to the <a href="#cf0094a0-0807-5896-86d0-22c7cfc33657">Essentials OSCAL NS 1.0</a> page for information regarding the Essentials specific representation used in this OSCAL file.</p>
+      </remarks>
+   </metadata>
+   <group id="IDE">
+      <title>Identify principles</title>
+      <prop name="sort-id" value="2"/>
+      <group id="IDE-01" class="essentials-principle">
+         <title>IDE-01 - Asset identification</title>
+         <prop name="sort-id" value="2.1"/>
+         <part id="IDE-01.overview" name="overview">
+            <prop name="sort-id" value="2.1.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Systems (infrastructure, operating systems, applications, identities, credentials and data) are continually and centrally identified and documented.</p>
+         </part>
+         <control id="IT.IDE-01.1">
+            <title>IT.IDE-01.1</title>
+            <prop name="sort-id" value="2.1.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.IDE-01.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="2.1.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Use an approved asset inventory mechanism that supports automated discovery to detect new and changed physical and non-physical assets.</p>
+            </part>
+            <part id="IT.IDE-01.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="2.1.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="2.1.2.2.1"/>
+                  <part id="IT.IDE-01.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.1.1"/>
+                     <p>No approved asset inventory mechanism is in place.</p>
+                  </part>
+                  <part id="IT.IDE-01.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.1.2"/>
+                     <p>Asset inventory records are maintained manually with no automated discovery capability.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="2.1.2.2.2"/>
+                  <part id="IT.IDE-01.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.2.1"/>
+                     <p>An approved asset inventory mechanism is deployed but does not cover all network segments or asset types.</p>
+                  </part>
+                  <part id="IT.IDE-01.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.2.2"/>
+                     <p>Automated discovery scans to detect new and changed physical and non-physical assets occur on a schedule but reconciliation with the approved inventory is manual or inconsistent.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="2.1.2.2.3"/>
+                  <part id="IT.IDE-01.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.3.1"/>
+                     <p>An approved asset inventory mechanism which supports automated discovery is deployed to cover all applicable assets and network segments.</p>
+                  </part>
+                  <part id="IT.IDE-01.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="2.1.2.2.3.2"/>
+                     <p>Discovery runs on a regular schedule defined by the organisation and new or changed physical or non-physical assets that are detected are reconciled with the approved inventory.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="IDE-04" class="essentials-principle">
+         <title>IDE-04 - Security risk identification</title>
+         <prop name="sort-id" value="2.2"/>
+         <part id="IDE-04.overview" name="overview">
+            <prop name="sort-id" value="2.2.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Security risks for an organisation and their systems (infrastructure, operating systems, applications and data) are identified, including by using current strategic and sector-specific cyber threat intelligence and threat modelling, and are documented along with any associated risk management decisions.</p>
+         </part>
+         <control id="IT.IDE-04.1">
+            <title>IT.IDE-04.1</title>
+            <prop name="sort-id" value="2.2.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.IDE-04.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="2.2.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Identify relevant weaknesses, malicious actor techniques and cyber threat behaviours when undertaking risk assessments and review these inputs on a continuous basis.</p>
+            </part>
+            <part id="IT.IDE-04.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="2.2.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="2.2.2.2.1"/>
+                  <part id="IT.IDE-04.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.1.1"/>
+                     <p>Risk assessments do not reference relevant weaknesses, malicious actor techniques and cyber threat behaviours.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.1.2"/>
+                     <p>No process exists to incorporate threat information into risk assessment activities.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.1.3"/>
+                     <p>Current weaknesses, malicious actor techniques and cyber threat behaviours that are relevant to the organisation are not reviewed or updated.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="2.2.2.2.2"/>
+                  <part id="IT.IDE-04.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.2.1"/>
+                     <p>Risk assessments reference threat intelligence but coverage is limited to well-known or generic threats.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.2.2"/>
+                     <p>Threat information is considered but not systematically mapped to organisational assets or detection gaps.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.2.3"/>
+                     <p>Current weaknesses, malicious actor techniques and cyber threat behaviours that are relevant to the organisation are reviewed or updated, but are not used to inform risk assessments or are reviewed only on an ad hoc basis.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="2.2.2.2.3"/>
+                  <part id="IT.IDE-04.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.3.1"/>
+                     <p>Risk assessments incorporate and reference relevant weaknesses, malicious actor techniques relevant to the sector, and cyber threat behaviours.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.3.2"/>
+                     <p>Relevant weaknesses, malicious actor techniques and cyber threat behaviours are systematically related to applicable assets and used to inform risk treatment decisions.</p>
+                  </part>
+                  <part id="IT.IDE-04.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="2.2.2.2.3.3"/>
+                     <p>Current weaknesses, malicious actor techniques and cyber threat behaviours relevant to the organisation are reviewed or updated on a continuous basis at a frequency that enables noted changes to inform risk assessments.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <group id="PRO">
+      <title>Protect principles</title>
+      <prop name="sort-id" value="3"/>
+      <group id="PRO-13" class="essentials-principle">
+         <title>PRO-13 - Identity, credential and access management</title>
+         <prop name="sort-id" value="3.03"/>
+         <part id="PRO-13.overview" name="overview">
+            <prop name="sort-id" value="3.03.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Robust and secure identity, credential and access management is used to establish, maintain and control access to systems (infrastructure, operating systems, applications and data) and to support effective detection of identity and credential misuse.</p>
+         </part>
+         <control id="IT.PRO-13.3">
+            <title>IT.PRO-13.3</title>
+            <prop name="sort-id" value="3.03.4"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <link rel="mitigated-technique" href="#77ba96d0-f819-580a-9622-c823aba0d750">
+               <text>Mitigated technique: Valid Accounts</text>
+            </link>
+            <link rel="mitigated-technique" href="#57fa3c84-e383-5a76-a1ac-8db584b1b7cb">
+               <text>Mitigated technique: Unsecured Credentials</text>
+            </link>
+            <part id="IT.PRO-13.3.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="3.03.4.1"/>
+               <prop name="label" value="Action"/>
+               <p>Identify and remediate unsecured keys, secrets and credentials by regularly scanning codebases, configuration files, file shares and user collaboration platforms.</p>
+            </part>
+            <part id="IT.PRO-13.3.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="3.03.4.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="3.03.4.2.1"/>
+                  <part id="IT.PRO-13.3.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.1.1"/>
+                     <p>No secret scanning capability is deployed.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.1.2"/>
+                     <p>No process exists to identify credentials exposed in codebases, configuration files, file shares or user collaboration platforms.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.1.3"/>
+                     <p>Unsecured keys, secrets and credentials found exposed in codebases, configuration files, scripts, file shares or user collaboration platforms are left in place with no action taken.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="3.03.4.2.2"/>
+                  <part id="IT.PRO-13.3.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.2.1"/>
+                     <p>Secret scanning is deployed but does not cover all repositories, pipelines or user collaboration platforms.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.2.2"/>
+                     <p>Scanning runs but discovered credentials are not assessed in a timely manner.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.2.3"/>
+                     <p>Unsecured keys, secrets and credentials that are discovered are assessed, but are not rotated or revoked in a timely manner.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="3.03.4.2.3"/>
+                  <part id="IT.PRO-13.3.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.3.1"/>
+                     <p>Secret scanning tooling is deployed across codebases, configuration files, file shares and user collaboration platforms.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.3.2"/>
+                     <p>Scans to identify unsecured keys, secrets and credentials run on a regular schedule defined by the organisation.</p>
+                  </part>
+                  <part id="IT.PRO-13.3.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.03.4.2.3.3"/>
+                     <p>Unsecured keys, secrets and credentials that are discovered are assessed, then rotated and/or revoked within timeframes defined by the organisation.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <group id="DET">
+      <title>Detect principles</title>
+      <prop name="sort-id" value="4"/>
+      <group id="DET-01" class="essentials-principle">
+         <title>DET-01 - Centralised event logging</title>
+         <prop name="sort-id" value="4.1"/>
+         <part id="DET-01.overview" name="overview">
+            <prop name="sort-id" value="4.1.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Security-relevant event logs and configuration changes for systems (infrastructure, operating systems, applications and data) are centrally collected, protected against unauthorised modification or deletion, and retained to support effective cyber security event detection and investigation.</p>
+         </part>
+         <control id="IT.DET-01.3">
+            <title>IT.DET-01.3</title>
+            <prop name="sort-id" value="4.1.4"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <link rel="mitigated-technique" href="#46785cc3-484c-58a6-aae3-b25173f54a61">
+               <text>Mitigated technique: Indicator Removal</text>
+            </link>
+            <link rel="mitigated-technique" href="#7b9a147e-3ff0-575d-bd46-8175e912f663">
+               <text>Mitigated technique: Disable or Modify Tools</text>
+            </link>
+            <part id="IT.DET-01.3.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="4.1.4.1"/>
+               <prop name="label" value="Action"/>
+               <p>Establish a centralised event log storage capability that protects logs from unauthorised access or modification.</p>
+            </part>
+            <part id="IT.DET-01.3.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="4.1.4.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="4.1.4.2.1"/>
+                  <part id="IT.DET-01.3.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.1.1"/>
+                     <p>No centralised capability exists for storing event logs collected from systems across the environment.</p>
+                  </part>
+                  <part id="IT.DET-01.3.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.1.2"/>
+                     <p>Stored logs have no protection against modification or deletion by administrators of the systems generating them.</p>
+                  </part>
+                  <part id="IT.DET-01.3.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.1.3"/>
+                     <p>Access to the centralised capability is not restricted, or access is granted to roles without a documented need.</p>
+                  </part>
+                  <part id="IT.DET-01.3.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.1.4"/>
+                     <p>Log retention requirements are not defined.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="4.1.4.2.2"/>
+                  <part id="IT.DET-01.3.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.2.1"/>
+                     <p>A centralised capability exists but does not receive logs from in-scope systems, or coverage is inconsistent.</p>
+                  </part>
+                  <part id="IT.DET-01.3.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.2.2"/>
+                     <p>Stored logs are protected from modification, but the controls do not consistently prevent deletion, or controls are not applied to all log types.</p>
+                  </part>
+                  <part id="IT.DET-01.3.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.2.3"/>
+                     <p>Access is restricted to a defined set of roles but access is not logged or monitored.</p>
+                  </part>
+                  <part id="IT.DET-01.3.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.2.4"/>
+                     <p>A retention period is defined but is inconsistently applied, or some log types are retained for shorter periods than required.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="4.1.4.2.3"/>
+                  <part id="IT.DET-01.3.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.3.1"/>
+                     <p>A centralised event log storage capability is in place for logs collected from in-scope systems.</p>
+                  </part>
+                  <part id="IT.DET-01.3.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.3.2"/>
+                     <p>Stored logs are protected against unauthorised access, modification and deletion through technical controls including access restrictions, encryption at rest and integrity protection.</p>
+                  </part>
+                  <part id="IT.DET-01.3.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.3.3"/>
+                     <p>Access to the centralised capability is restricted to security operations personnel and other roles with a documented need, with access logged and monitored.</p>
+                  </part>
+                  <part id="IT.DET-01.3.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.1.4.2.3.4"/>
+                     <p>Log retention requirements are defined and aligned to investigative, regulatory and contractual obligations, with retention applied consistently across log types.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="DET-02" class="essentials-principle">
+         <title>DET-02 - Cyber security event detection</title>
+         <prop name="sort-id" value="4.3"/>
+         <part id="DET-02.overview" name="overview">
+            <prop name="sort-id" value="4.3.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Anomalous or unexpected events and behaviours for systems (infrastructure, operating systems, applications and data) are analysed in a timely manner to detect cyber security events.</p>
+         </part>
+         <control id="IT.DET-02.2">
+            <title>IT.DET-02.2</title>
+            <prop name="sort-id" value="4.3.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.DET-02.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="4.3.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Ensure detection logic identifies unauthorised changes, anomalous authentication activity and suspicious software execution.</p>
+            </part>
+            <part id="IT.DET-02.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="4.3.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="4.3.3.2.1"/>
+                  <part id="IT.DET-02.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.1.1"/>
+                     <p>No detection logic is deployed to identify unauthorised changes, anomalous authentication activity or suspicious software execution events originating from assets.</p>
+                  </part>
+                  <part id="IT.DET-02.2.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.1.2"/>
+                     <p>Detection relies entirely on manual log review with no automated rules or alerting.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="4.3.3.2.2"/>
+                  <part id="IT.DET-02.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.2.1"/>
+                     <p>Detection logic exists but does not cover all three categories (unauthorised changes, anomalous authentication, suspicious execution).</p>
+                  </part>
+                  <part id="IT.DET-02.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.2.2"/>
+                     <p>Rules are deployed but are not tested or tuned on a regular cycle defined by the organisation.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="4.3.3.2.3"/>
+                  <part id="IT.DET-02.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.3.1"/>
+                     <p>Detection logic is deployed, and unauthorised configuration changes, anomalous authentication patterns and suspicious process execution events are captured and produce alerts.</p>
+                  </part>
+                  <part id="IT.DET-02.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.3.2"/>
+                     <p>Detection logic is tested and tuned on a regular cycle defined by the organisation to maintain effectiveness.</p>
+                  </part>
+                  <part id="IT.DET-02.2.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.3.3.2.3.3"/>
+                     <p>Detection coverage is reviewed following cyber security incidents or significant environmental changes.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="DET-03" class="essentials-principle">
+         <title>DET-03 - Cyber security incident identification</title>
+         <prop name="sort-id" value="4.4"/>
+         <part id="DET-03.overview" name="overview">
+            <prop name="sort-id" value="4.4.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Cyber security events are analysed in a timely manner to identify cyber security incidents.</p>
+         </part>
+         <control id="IT.DET-03.1">
+            <title>IT.DET-03.1</title>
+            <prop name="sort-id" value="4.4.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.DET-03.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="4.4.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Triage alerts and events in a timely manner to determine whether cyber security incident thresholds have been met.</p>
+            </part>
+            <part id="IT.DET-03.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="4.4.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="4.4.2.2.1"/>
+                  <part id="IT.DET-03.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.1.1"/>
+                     <p>No documented triage process exists.</p>
+                  </part>
+                  <part id="IT.DET-03.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.1.2"/>
+                     <p>Alerts are routinely ignored or left unreviewed.</p>
+                  </part>
+                  <part id="IT.DET-03.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.1.3"/>
+                     <p>No incident severity thresholds are defined.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="4.4.2.2.2"/>
+                  <part id="IT.DET-03.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.2.1"/>
+                     <p>A triage process exists but response times are not defined or consistently met.</p>
+                  </part>
+                  <part id="IT.DET-03.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.2.2"/>
+                     <p>Severity thresholds are defined but escalation procedures are informal.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="4.4.2.2.3"/>
+                  <part id="IT.DET-03.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.3.1"/>
+                     <p>A documented triage process with defined severity thresholds and response timeframes is in place.</p>
+                  </part>
+                  <part id="IT.DET-03.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.3.2"/>
+                     <p>Alerts are triaged within the timeframes defined by the organisation and escalated where cyber security incident thresholds are met.</p>
+                  </part>
+                  <part id="IT.DET-03.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.2.2.3.3"/>
+                     <p>Triage performance is tracked and reported.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+         <control id="IT.DET-03.2">
+            <title>IT.DET-03.2</title>
+            <prop name="sort-id" value="4.4.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.DET-03.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="4.4.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Use indicators from across identities, applications, data and infrastructure activity rather than isolated signals when identifying cyber security incidents.</p>
+            </part>
+            <part id="IT.DET-03.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="4.4.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="4.4.3.2.1"/>
+                  <part id="IT.DET-03.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.1.1"/>
+                     <p>Investigation relies on single-source alerts with no cross-source correlation.</p>
+                  </part>
+                  <part id="IT.DET-03.2.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.1.2"/>
+                     <p>Correlation rules do not consider signals from multiple data sources.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="4.4.3.2.2"/>
+                  <part id="IT.DET-03.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.2.1"/>
+                     <p>Some correlation exists but is limited to specific data source pairs.</p>
+                  </part>
+                  <part id="IT.DET-03.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.2.2"/>
+                     <p>Cross-source investigation is performed manually but not supported by automated correlation.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="4.4.3.2.3"/>
+                  <part id="IT.DET-03.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.3.1"/>
+                     <p>Correlation rules and investigation procedures consider signals across identities, applications, data and infrastructure.</p>
+                  </part>
+                  <part id="IT.DET-03.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.4.3.2.3.2"/>
+                     <p>Automated correlation supports detection of multi-stage adversary activity.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="DET-05" class="essentials-principle">
+         <title>DET-05 - Detection capability efficacy</title>
+         <prop name="sort-id" value="4.5"/>
+         <part id="DET-05.overview" name="overview">
+            <prop name="sort-id" value="4.5.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Cyber security event detection capabilities are regularly evaluated for effectiveness and continuously refined, including by using current strategic and sector-specific cyber threat intelligence, to improve the detection of cyber security events.</p>
+         </part>
+         <control id="IT.DET-05.1">
+            <title>IT.DET-05.1</title>
+            <prop name="sort-id" value="4.5.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.DET-05.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="4.5.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Review detection coverage periodically to identify gaps arising from new assets, services or architectural changes.</p>
+            </part>
+            <part id="IT.DET-05.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="4.5.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="4.5.2.2.1"/>
+                  <part id="IT.DET-05.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.1.1"/>
+                     <p>No review of detection coverage has been conducted within the period defined by the organisation.</p>
+                  </part>
+                  <part id="IT.DET-05.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.1.2"/>
+                     <p>No process exists to assess new assets and services for log coverage or detection applicability.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="4.5.2.2.2"/>
+                  <part id="IT.DET-05.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.2.1"/>
+                     <p>A review of detection coverage has been conducted but does not cover all recently deployed assets or services.</p>
+                  </part>
+                  <part id="IT.DET-05.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.2.2"/>
+                     <p>Detection gaps have been identified and remediation is planned, but remediation has not been executed within timeframes defined by the organisation.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="4.5.2.2.3"/>
+                  <part id="IT.DET-05.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.3.1"/>
+                     <p>A detection coverage review has been completed within the cycle defined by the organisation.</p>
+                  </part>
+                  <part id="IT.DET-05.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.3.2"/>
+                     <p>New assets and services are assessed for log coverage and detection rule applicability.</p>
+                  </part>
+                  <part id="IT.DET-05.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="4.5.2.2.3.3"/>
+                     <p>Identified detection gaps are remediated within risk-based timeframes defined by the organisation.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <group id="RES">
+      <title>Respond principles</title>
+      <prop name="sort-id" value="5"/>
+      <group id="RES-05" class="essentials-principle">
+         <title>RES-05 - Cyber security incident coordination</title>
+         <prop name="sort-id" value="5.1"/>
+         <part id="RES-05.overview" name="overview">
+            <prop name="sort-id" value="5.1.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Cyber security incident roles and responsibilities are defined, documented and exercised to support the internal and external coordination and management of cyber security incidents, including responsibilities for declaring cyber security incidents and undertaking pre-approved response and recovery activities.</p>
+         </part>
+         <control id="IT.RES-05.1">
+            <title>IT.RES-05.1</title>
+            <prop name="sort-id" value="5.1.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.RES-05.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="5.1.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Integrate external coordination obligations into cyber security incident response activities where required.</p>
+            </part>
+            <part id="IT.RES-05.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="5.1.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="5.1.2.2.1"/>
+                  <part id="IT.RES-05.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.1.1"/>
+                     <p>External coordination requirements for Cyber security incident response activities are neither identified nor documented.</p>
+                  </part>
+                  <part id="IT.RES-05.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.1.2"/>
+                     <p>No defined triggers, contacts or timeframes exist for external reporting.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="5.1.2.2.2"/>
+                  <part id="IT.RES-05.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.2.1"/>
+                     <p>External coordination requirements are documented but are not integrated into operational response procedures.</p>
+                  </part>
+                  <part id="IT.RES-05.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.2.2"/>
+                     <p>Contacts and triggers are defined for some but not all required external parties.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="5.1.2.2.3"/>
+                  <part id="IT.RES-05.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.3.1"/>
+                     <p>Cyber security incident response procedures include documented external coordination requirements with defined triggers, contacts and timeframes.</p>
+                  </part>
+                  <part id="IT.RES-05.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.3.2"/>
+                     <p>Requirements cover all relevant external parties identified by applicable legal, regulatory, contractual and organisational obligations.</p>
+                  </part>
+                  <part id="IT.RES-05.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.1.2.2.3.3"/>
+                     <p>Coordination procedures have been exercised or invoked and lessons learnt have been incorporated.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="RES-03" class="essentials-principle">
+         <title>RES-03 - Cyber security incident response</title>
+         <prop name="sort-id" value="5.2"/>
+         <part id="RES-03.overview" name="overview">
+            <prop name="sort-id" value="5.2.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Cyber security incidents are contained, eradicated and recovered from in a timely manner.</p>
+         </part>
+         <control id="IT.RES-03.1">
+            <title>IT.RES-03.1</title>
+            <prop name="sort-id" value="5.2.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.RES-03.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="5.2.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Use documented, tested and approved cyber security incident response procedures when responding to cyber security incidents.</p>
+            </part>
+            <part id="IT.RES-03.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="5.2.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="5.2.2.2.1"/>
+                  <part id="IT.RES-03.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.1.1"/>
+                     <p>No documented cyber security incident response plan or procedures exist.</p>
+                  </part>
+                  <part id="IT.RES-03.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.1.2"/>
+                     <p>Incident response activities are conducted on an ad hoc basis without any defined roles, escalation paths, procedures or response objectives.</p>
+                  </part>
+                  <part id="IT.RES-03.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.1.3"/>
+                     <p>Available incident records demonstrate systemic failures to contain, eradicate or recover from cyber security incidents within organisationally defined timeframes, and the causes of these failures are not addressed.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="5.2.2.2.2"/>
+                  <part id="IT.RES-03.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.2.1"/>
+                     <p>A cyber security incident response plan exists but has not been exercised or invoked within the organisationally defined test cycle.</p>
+                  </part>
+                  <part id="IT.RES-03.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.2.2"/>
+                     <p>The cyber security incident response plan defines roles, escalation paths, and response procedures, but target timeframes or intended response outcomes are not clearly defined.</p>
+                  </part>
+                  <part id="IT.RES-03.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.2.3"/>
+                     <p>Incident records or exercise results demonstrate that response activities do not consistently meet organisationally defined timeframes or intended outcomes, but identified deficiencies are documented and subject to improvement actions.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="5.2.2.2.3"/>
+                  <part id="IT.RES-03.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.3.1"/>
+                     <p>An approved cyber security incident response plan is in place and defines roles, escalation paths, response procedures, target timeframes and intended containment, eradication and recovery outcomes.</p>
+                  </part>
+                  <part id="IT.RES-03.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.3.2"/>
+                     <p>The incident response plan and associated procedures have been exercised or invoked within the organisationally defined test cycle.</p>
+                  </part>
+                  <part id="IT.RES-03.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.3.3"/>
+                     <p>Incident records demonstrate that cyber security incidents are contained, eradicated and recovered from within organisationally defined target timeframes and achieve the intended response outcomes, taking into account incident severity, complexity and business impact.</p>
+                  </part>
+                  <part id="IT.RES-03.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.3.4"/>
+                     <p>Where target timeframes or intended outcomes are not achieved, the causes are analysed, improvement actions are assigned and tracked, and relevant plans, procedures and controls are updated.</p>
+                  </part>
+                  <part id="IT.RES-03.1.FE-5"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.2.2.2.3.5"/>
+                     <p>Where no relevant cyber security incident has occurred during the assessment period, appropriately scoped exercises demonstrate the organisation’s capability to achieve its target timeframes and intended response outcomes.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="RES-04" class="essentials-principle">
+         <title>RES-04 - Cyber security incident insights</title>
+         <prop name="sort-id" value="5.3"/>
+         <part id="RES-04.overview" name="overview">
+            <prop name="sort-id" value="5.3.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Lessons learnt from cyber security incidents are captured, and areas for improvement are identified, prioritised and actioned in a timely manner.</p>
+         </part>
+         <control id="IT.RES-04.1">
+            <title>IT.RES-04.1</title>
+            <prop name="sort-id" value="5.3.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.RES-04.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="5.3.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Perform post-cyber security incident reviews to identify the security gaps that enabled each stage of the cyber security incident.</p>
+            </part>
+            <part id="IT.RES-04.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="5.3.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="5.3.2.2.1"/>
+                  <part id="IT.RES-04.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.1.1"/>
+                     <p>Post-incident reviews are not conducted.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="5.3.2.2.2"/>
+                  <part id="IT.RES-04.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.2.1"/>
+                     <p>Post-incident reviews are conducted for some incidents but not all that meet the severity threshold defined by the organisation.</p>
+                  </part>
+                  <part id="IT.RES-04.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.2.2"/>
+                     <p>Reviews are conducted but findings are not documented or actioned.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="5.3.2.2.3"/>
+                  <part id="IT.RES-04.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.3.1"/>
+                     <p>Post-incident reviews are conducted for all incidents meeting the severity threshold defined by the organisation.</p>
+                  </part>
+                  <part id="IT.RES-04.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.3.2"/>
+                     <p>Findings identify the specific gaps that enabled each stage of the incident.</p>
+                  </part>
+                  <part id="IT.RES-04.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.2.2.3.3"/>
+                     <p>Remediation actions arising from findings are implemented and tracked to closure.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+         <control id="IT.RES-04.2">
+            <title>IT.RES-04.2</title>
+            <prop name="sort-id" value="5.3.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="visibility-and-response"/>
+            <part id="IT.RES-04.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="5.3.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Evaluate the monitoring coverage and cyber security incident response procedures following cyber security incidents.</p>
+            </part>
+            <part id="IT.RES-04.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="5.3.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="5.3.3.2.1"/>
+                  <part id="IT.RES-04.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.3.2.1.1"/>
+                     <p>Detection rules, monitoring coverage and response procedures are not reviewed following incidents.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="5.3.3.2.2"/>
+                  <part id="IT.RES-04.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.3.2.2.1"/>
+                     <p>Reviews are conducted but do not result in documented changes to detection or response capabilities.</p>
+                  </part>
+                  <part id="IT.RES-04.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.3.2.2.2"/>
+                     <p>Some improvements are made but not systematically tracked or validated.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="5.3.3.2.3"/>
+                  <part id="IT.RES-04.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.3.2.3.1"/>
+                     <p>Detection rules, monitoring coverage and cyber security incident response procedures are reviewed following incidents, with identified lessons incorporated into updates.</p>
+                  </part>
+                  <part id="IT.RES-04.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="5.3.3.2.3.2"/>
+                     <p>Changes are documented, tested and validated for effectiveness.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <back-matter>
+      <resource uuid="77ba96d0-f819-580a-9622-c823aba0d750">
+         <title>Valid Accounts</title>
+         <rlink href="https://attack.mitre.org/versions/v19/techniques/T1078/"/>
+      </resource>
+      <resource uuid="57fa3c84-e383-5a76-a1ac-8db584b1b7cb">
+         <title>Unsecured Credentials</title>
+         <rlink href="https://attack.mitre.org/versions/v19/techniques/T1552/"/>
+      </resource>
+      <resource uuid="7b9a147e-3ff0-575d-bd46-8175e912f663">
+         <title>Disable or Modify Tools</title>
+         <rlink href="https://attack.mitre.org/versions/v19/techniques/T1685/"/>
+      </resource>
+      <resource uuid="46785cc3-484c-58a6-aae3-b25173f54a61">
+         <title>Indicator Removal</title>
+         <rlink href="https://attack.mitre.org/versions/v19/techniques/T1070/"/>
+      </resource>
+      <resource uuid="18f51d14-2009-5233-9ab1-59e7eb2d9ba3">
+         <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Resolved Catalog v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="8e0d09de-e42a-57de-be50-2f5fe77bb184">
+         <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Profile v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_visibility-and-response-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="4faa6ef6-2fec-558a-b5e7-e463c5e2d223">
+         <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Resolved Catalog - latest version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="d84175f1-534d-554d-afe4-577f476a6f4b">
+         <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Resolved Catalog v2026.10.15 - predecessor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="e383244b-41cf-5ec3-a9ad-0a14d3756c6d">
+         <title>Assessment evidence guide for enterprise IT - Visibility and response OSCAL Resolved Catalog v2026.10.15 - successor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_visibility-and-response-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="517e8871-7c0d-531e-9c4b-47b4aec18c14">
+         <title>Assessment evidence guide for enterprise IT</title>
+         <prop name="published" value="2026-10-15T00:00:00+11:00"/>
+         <prop name="version" value="2026-10-15"/>
+         <rlink media-type="application/pdf"
+                href="https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf"/>
+      </resource>
+      <resource uuid="cf0094a0-0807-5896-86d0-22c7cfc33657">
+         <title>Essentials OSCAL NS 1.0</title>
+         <rlink href="https://www.cyber.gov.au/ns/essentials/oscal/1.0"/>
+      </resource>
+   </back-matter>
+</catalog>

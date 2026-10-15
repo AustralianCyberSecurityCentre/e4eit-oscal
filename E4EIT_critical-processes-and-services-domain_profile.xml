@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="df9164d3-20c6-5570-bfb7-cfc1ce0dbe6c">
+   <metadata>
+      <title>Assessment evidence guide for enterprise IT - Critical processes and services OSCAL Profile</title>
+      <published>2026-10-15T00:30:23Z</published>
+      <last-modified>2026-10-15T00:30:23Z</last-modified>
+      <version>2026.10.15</version>
+      <oscal-version>1.2.3</oscal-version>
+      <prop name="domain"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="critical-processes-and-services"/>
+      <prop name="domain-description"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="Core processes and services that are critical to delivering primary organisational outcomes."/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-2"/>
+      <link rel="canonical" href="#cb13e6fc-647d-5c9d-81d1-c8c490595922"/>
+      <link rel="latest-version" href="#6f48084c-d9d0-5359-885a-2db6c9a797f8"/>
+      <link rel="predecessor-version" href="#c3fc9125-ae5e-5945-9c99-84974c7b347e"/>
+      <link rel="successor-version" href="#e5721ecb-c3ae-5a6d-97e9-81d0668ced9f"/>
+      <link rel="alternate" href="#749a4f98-ab3d-5c34-a269-635125a18aab"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="abf7d7c0-829f-51f4-9824-87d4373f6edf">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="website"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>abf7d7c0-829f-51f4-9824-87d4373f6edf</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>Consumers of this file should refer to the <a href="#c1350084-c4c2-5447-affd-185f1ef2f6c2">Essentials OSCAL NS 1.0</a> page for information regarding the Essentials specific representation used in this OSCAL file.</p>
+      </remarks>
+   </metadata>
+   <import href="#01a007e8-258b-54d3-a3bc-a96f0531f3b4">
+      <include-controls>
+         <with-id>IT.IDE-01.2</with-id>
+         <with-id>IT.PRO-01.1</with-id>
+         <with-id>IT.PRO-01.2</with-id>
+         <with-id>IT.PRO-16.1</with-id>
+         <with-id>IT.PRO-16.2</with-id>
+         <with-id>IT.PRO-13.1</with-id>
+         <with-id>IT.PRO-13.2</with-id>
+         <with-id>IT.PRO-13.4</with-id>
+         <with-id>IT.PRO-13.5</with-id>
+         <with-id>IT.PRO-13.6</with-id>
+         <with-id>IT.PRO-12.1</with-id>
+         <with-id>IT.PRO-12.2</with-id>
+         <with-id>IT.PRO-12.3</with-id>
+         <with-id>IT.PRO-05.1</with-id>
+         <with-id>IT.PRO-05.2</with-id>
+         <with-id>IT.PRO-05.3</with-id>
+         <with-id>IT.PRO-04.1</with-id>
+         <with-id>IT.PRO-04.2</with-id>
+         <with-id>IT.PRO-04.3</with-id>
+         <with-id>IT.PRO-06.1</with-id>
+         <with-id>IT.PRO-06.2</with-id>
+         <with-id>IT.PRO-06.3</with-id>
+         <with-id>IT.PRO-07.1</with-id>
+         <with-id>IT.PRO-07.2</with-id>
+         <with-id>IT.PRO-10.1</with-id>
+         <with-id>IT.PRO-10.2</with-id>
+         <with-id>IT.PRO-10.3</with-id>
+         <with-id>IT.PRO-18.1</with-id>
+         <with-id>IT.PRO-18.2</with-id>
+         <with-id>IT.PRO-09.1</with-id>
+         <with-id>IT.PRO-09.2</with-id>
+         <with-id>IT.PRO-09.3</with-id>
+         <with-id>IT.PRO-14.1</with-id>
+         <with-id>IT.DET-01.1</with-id>
+         <with-id>IT.DET-01.2</with-id>
+         <with-id>IT.DET-04.1</with-id>
+         <with-id>IT.DET-02.1</with-id>
+      </include-controls>
+   </import>
+   <merge>
+      <as-is>true</as-is>
+   </merge>
+   <back-matter>
+      <resource uuid="cb13e6fc-647d-5c9d-81d1-c8c490595922">
+         <title>Assessment evidence guide for enterprise IT - Critical processes and services OSCAL Profile v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_critical-processes-and-services-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_critical-processes-and-services-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_critical-processes-and-services-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="6f48084c-d9d0-5359-885a-2db6c9a797f8">
+         <title>Assessment evidence guide for enterprise IT - Critical processes and services OSCAL Profile - latest version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="c3fc9125-ae5e-5945-9c99-84974c7b347e">
+         <title>Assessment evidence guide for enterprise IT - Critical processes and services OSCAL Profile v2026.10.15 - predecessor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="e5721ecb-c3ae-5a6d-97e9-81d0668ced9f">
+         <title>Assessment evidence guide for enterprise IT - Critical processes and services OSCAL Profile v2026.10.15 - successor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_critical-processes-and-services-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="01a007e8-258b-54d3-a3bc-a96f0531f3b4">
+         <title>Assessment evidence guide for enterprise IT OSCAL catalog v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml" href="E4EIT_catalog.xml"/>
+         <rlink media-type="application/json" href="E4EIT_catalog.json"/>
+         <rlink media-type="application/oscal+yaml" href="E4EIT_catalog.yaml"/>
+      </resource>
+      <resource uuid="749a4f98-ab3d-5c34-a269-635125a18aab">
+         <title>Assessment evidence guide for enterprise IT</title>
+         <prop name="published" value="2026-10-15T00:00:00+11:00"/>
+         <prop name="version" value="2026-10-15"/>
+         <rlink media-type="application/pdf"
+                href="https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf"/>
+      </resource>
+      <resource uuid="c1350084-c4c2-5447-affd-185f1ef2f6c2">
+         <title>Essentials OSCAL NS 1.0</title>
+         <rlink href="https://www.cyber.gov.au/ns/essentials/oscal/1.0"/>
+      </resource>
+   </back-matter>
+</profile>

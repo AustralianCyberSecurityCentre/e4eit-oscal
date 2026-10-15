@@ -1,0 +1,1796 @@
+{
+  "catalog": {
+    "uuid": "49a3b372-5716-5165-aa5c-f7daaca6731f",
+    "metadata": {
+      "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog",
+      "published": "2026-10-15T00:30:23Z",
+      "last-modified": "2026-10-15T00:30:23Z",
+      "version": "2026.10.15",
+      "oscal-version": "1.2.3",
+      "props": [ {
+        "name": "domain",
+        "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+        "value": "governance-and-culture"
+      }, {
+        "name": "domain-description",
+        "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+        "value": "Policies, risk management processes, roles and security culture that underpin the cyber security program."
+      }, {
+        "name": "domain-priority-phase",
+        "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+        "value": "phase-1"
+      }, {
+        "name": "domain-priority-phase",
+        "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+        "value": "phase-2"
+      }, {
+        "name": "domain-priority-phase",
+        "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+        "value": "phase-3"
+      }, {
+        "name": "resolution-tool",
+        "value": "OSCAL Profile Resolver XSLT Pipeline OPRXP"
+      } ],
+      "links": [ {
+        "href": "#d1c97d9d-457b-5655-bbca-d92ac2bdf617",
+        "rel": "source-profile"
+      }, {
+        "href": "#b7754d04-b599-579d-a989-679fcaf58600",
+        "rel": "canonical"
+      }, {
+        "href": "#44c90ca2-3da9-5876-9a2e-55e720afbb26",
+        "rel": "latest-version"
+      }, {
+        "href": "#f9fb12d4-22f6-53a0-b59f-1841d79c2d82",
+        "rel": "predecessor-version"
+      }, {
+        "href": "#04399f63-8fcf-5868-846c-46b1a2d2c794",
+        "rel": "successor-version"
+      }, {
+        "href": "#211ff658-86c9-50e9-bacf-ee7f932ac402",
+        "rel": "alternate"
+      } ],
+      "roles": [ {
+        "id": "prepared-by",
+        "title": "Document creator"
+      } ],
+      "parties": [ {
+        "uuid": "aa1aa1b7-e49e-526e-8649-02711a826b8a",
+        "type": "organization",
+        "name": "Australian Cyber Security Centre",
+        "short-name": "ACSC",
+        "links": [ {
+          "href": "https://www.cyber.gov.au",
+          "rel": "website"
+        } ],
+        "email-addresses": [ "asd.assist@defence.gov.au" ],
+        "addresses": [ {
+          "type": "work",
+          "addr-lines": [ "Australian Cyber Security Centre", "General enquiries", "PO Box 5076" ],
+          "city": "Kingston",
+          "state": "ACT",
+          "postal-code": "2604",
+          "country": "AU"
+        } ]
+      } ],
+      "responsible-parties": [ {
+        "role-id": "prepared-by",
+        "party-uuids": [ "aa1aa1b7-e49e-526e-8649-02711a826b8a" ]
+      } ],
+      "remarks": "Consumers of this file should refer to the [Essentials OSCAL NS 1.0](#def78f32-7cf5-50bc-890e-20875010bc73) page for information regarding the Essentials specific representation used in this OSCAL file."
+    },
+    "groups": [ {
+      "id": "GOV",
+      "title": "Govern principles",
+      "props": [ {
+        "name": "sort-id",
+        "value": "1"
+      } ],
+      "groups": [ {
+        "id": "GOV-01",
+        "class": "essentials-principle",
+        "title": "GOV-01 - Executive cyber security accountability",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.1"
+        } ],
+        "parts": [ {
+          "id": "GOV-01.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.1.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "The board of directors or executive committee is accountable for cyber security."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-01.1",
+          "title": "IT.GOV-01.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.1.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-01.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.1.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Formally define and establish executive and board-level accountabilities for cyber security, including setting, monitoring and adjusting organisational risk appetite, and review these accountabilities at a defined cadence."
+          }, {
+            "id": "IT.GOV-01.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.1.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.1.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-01.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.1.1"
+                } ],
+                "prose": "No named executive or board member is accountable for cyber security."
+              }, {
+                "id": "IT.GOV-01.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.1.2"
+                } ],
+                "prose": "Cyber security accountability exists only informally, or is assumed rather than documented."
+              }, {
+                "id": "IT.GOV-01.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.1.3"
+                } ],
+                "prose": "No evidence of cyber security reporting to the executive board."
+              }, {
+                "id": "IT.GOV-01.1.NE-4",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.1.4"
+                } ],
+                "prose": "Organisational risk appetite is not set."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.1.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-01.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.2.1"
+                } ],
+                "prose": "A named executive or board member is accountable for cyber security, but reporting obligations are not formally defined."
+              }, {
+                "id": "IT.GOV-01.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.2.2"
+                } ],
+                "prose": "Board-level reporting on cyber security occurs but is ad hoc rather than on a defined schedule."
+              }, {
+                "id": "IT.GOV-01.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.2.3"
+                } ],
+                "prose": "Accountability is documented but has not been reviewed within the organisationally defined cadence or following relevant organisational restructuring or leadership changes."
+              }, {
+                "id": "IT.GOV-01.1.PE-4",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.2.4"
+                } ],
+                "prose": "Organisational risk appetite is set but is not monitored or adjusted over time."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.1.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-01.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.3.1"
+                } ],
+                "prose": "A named executive or board member has documented accountability for cyber security with defined reporting obligations."
+              }, {
+                "id": "IT.GOV-01.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.3.2"
+                } ],
+                "prose": "Regular reporting to the board or executives occurs on a defined cadence with evidence of reporting artefacts."
+              }, {
+                "id": "IT.GOV-01.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.3.3"
+                } ],
+                "prose": "Accountability arrangements are reviewed when organisational structures or leadership changes occur."
+              }, {
+                "id": "IT.GOV-01.1.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.1.2.2.3.4"
+                } ],
+                "prose": "Organisational risk appetite is set and is monitored and adjusted over time as required."
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "id": "GOV-08",
+        "class": "essentials-principle",
+        "title": "GOV-08 - Executive artificial intelligence accountability",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.2"
+        } ],
+        "parts": [ {
+          "id": "GOV-08.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.2.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "The board of directors or executive committee is accountable for ensuring that artificial intelligence is secure, controllable, human-supervised and used in an ethical and accountable manner."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-08.1",
+          "title": "IT.GOV-08.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.2.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-08.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.2.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Establish and maintain executive accountability for the use, governance and risk management of artificial intelligence within the organisation."
+          }, {
+            "id": "IT.GOV-08.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.2.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.2.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-08.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.1.1"
+                } ],
+                "prose": "No named executive is accountable for the use, governance or risk management of artificial intelligence."
+              }, {
+                "id": "IT.GOV-08.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.1.2"
+                } ],
+                "prose": "Artificial intelligence is used within the organisation with no approval, risk assessment or oversight."
+              }, {
+                "id": "IT.GOV-08.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.1.3"
+                } ],
+                "prose": "Artificial intelligence related risks are not reflected in the organisation’s risk register."
+              }, {
+                "id": "IT.GOV-08.1.NE-4",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.1.4"
+                } ],
+                "prose": "Artificial intelligence use and governance arrangements have not been reviewed within the schedule defined by the organisation."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.2.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-08.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.2.1"
+                } ],
+                "prose": "A named executive is accountable for artificial intelligence but the governance process is informal or undocumented."
+              }, {
+                "id": "IT.GOV-08.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.2.2"
+                } ],
+                "prose": "Approval and risk assessment occur for some artificial intelligence use cases but coverage is inconsistent across internally developed, third-party and embedded artificial intelligence."
+              }, {
+                "id": "IT.GOV-08.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.2.3"
+                } ],
+                "prose": "Some artificial intelligence related risks are recorded but the organisation’s risk register does not capture all known artificial intelligence use cases."
+              }, {
+                "id": "IT.GOV-08.1.PE-4",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.2.4"
+                } ],
+                "prose": "Reviews occur within the schedule defined by the organisation, but do not consistently address changes in artificial intelligence capability, threat environment or organisational use."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.2.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-08.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.3.1"
+                } ],
+                "prose": "A named executive has accountability for artificial intelligence, supported by an approved governance process that has evidence of being followed."
+              }, {
+                "id": "IT.GOV-08.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.3.2"
+                } ],
+                "prose": "The governance process addresses approval, risk assessment and oversight for internally developed, third-party and embedded artificial intelligence use cases."
+              }, {
+                "id": "IT.GOV-08.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.3.3"
+                } ],
+                "prose": "Artificial intelligence related risks are reflected in the organisation’s risk register and reported through standard governance channels."
+              }, {
+                "id": "IT.GOV-08.1.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.2.2.2.3.4"
+                } ],
+                "prose": "Reviews of artificial intelligence use and governance arrangements are conducted on a schedule defined by the organisation and consistently address changes in artificial intelligence capability, threat environment or organisational use."
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "id": "GOV-04",
+        "class": "essentials-principle",
+        "title": "GOV-04 - Cyber security resourcing",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.3"
+        } ],
+        "parts": [ {
+          "id": "GOV-04.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.3.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "Suitable and sufficient personnel and resources are identified, acquired and maintained in support of cyber security activities."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-04.1",
+          "title": "IT.GOV-04.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.3.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-04.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.3.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Assign sufficient cyber security personnel and resources with the required skills to operate, monitor, maintain and manage the lifecycle of security controls and define cyber security responsibilities within role descriptions."
+          }, {
+            "id": "IT.GOV-04.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.3.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.1.1"
+                } ],
+                "prose": "Cyber security functions are staffed on an ad hoc basis without reference to required skills or capacity."
+              }, {
+                "id": "IT.GOV-04.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.1.2"
+                } ],
+                "prose": "Critical cyber security roles are unfilled with no approved recruitment plan."
+              }, {
+                "id": "IT.GOV-04.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.1.3"
+                } ],
+                "prose": "No resourcing plan for cyber security personnel exists."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.2.1"
+                } ],
+                "prose": "Some critical roles are filled but identified skills gaps have no plan for remediation."
+              }, {
+                "id": "IT.GOV-04.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.2.2"
+                } ],
+                "prose": "While assigned personnel provide some capability, there are gaps in capacity, resources, or expertise that hinder the operation, monitoring, maintenance, and lifecycle management of controls."
+              }, {
+                "id": "IT.GOV-04.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.2.3"
+                } ],
+                "prose": "A resourcing plan exists but does not cover all required cyber security functions."
+              }, {
+                "id": "IT.GOV-04.1.PE-4",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.2.4"
+                } ],
+                "prose": "Outstanding cyber security positions are being actively recruited, but capacity or skills gaps remain."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.3.1"
+                } ],
+                "prose": "Sufficient cyber security personnel are assigned to operate, monitor, maintain and manage the lifecycle of controls across the organisation."
+              }, {
+                "id": "IT.GOV-04.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.3.2"
+                } ],
+                "prose": "Skills gaps are identified and addressed through recruitment, training or contracted services."
+              }, {
+                "id": "IT.GOV-04.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.3.3"
+                } ],
+                "prose": "A resourcing plan identifies all required cyber security personnel, roles, skills, resources and capacity."
+              }, {
+                "id": "IT.GOV-04.1.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.2.2.3.4"
+                } ],
+                "prose": "Cyber security responsibilities are defined within applicable role descriptions."
+              } ]
+            } ]
+          } ]
+        }, {
+          "id": "IT.GOV-04.2",
+          "title": "IT.GOV-04.2",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.3.3"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-04.2.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.3.3.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Periodically review cyber security resourcing against cyber threat trends, cyber security incident outcomes and organisational changes."
+          }, {
+            "id": "IT.GOV-04.2.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.3.3.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.3.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.2.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.1.1"
+                } ],
+                "prose": "No review of cyber security resourcing has been conducted."
+              }, {
+                "id": "IT.GOV-04.2.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.1.2"
+                } ],
+                "prose": "Resourcing has not been reassessed following significant organisational or threat landscape changes."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.3.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.2.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.2.1"
+                } ],
+                "prose": "A review has been conducted but did not reference current threat trends, cyber security incident outcomes, or organisational changes."
+              }, {
+                "id": "IT.GOV-04.2.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.2.2"
+                } ],
+                "prose": "Review outcomes have identified required adjustments, but those adjustments have not been made."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.3.3.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-04.2.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.3.1"
+                } ],
+                "prose": "A resourcing review has been completed within the review period defined by the organisation."
+              }, {
+                "id": "IT.GOV-04.2.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.3.2"
+                } ],
+                "prose": "The review references current threat trends, cyber security incident outcomes and organisational changes."
+              }, {
+                "id": "IT.GOV-04.2.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.3.3.2.3.3"
+                } ],
+                "prose": "Documented review outcomes include resourcing adjustments that are implemented within timeframes defined by the organisation, or formally risk accepted by an appropriate authority."
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "id": "GOV-03",
+        "class": "essentials-principle",
+        "title": "GOV-03 - Security risk management assurance",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.4"
+        } ],
+        "parts": [ {
+          "id": "GOV-03.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.4.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "Security risk management activities for an organisation and their systems (infrastructure, operating systems, applications and data) are embedded into organisational risk management frameworks and subject to ongoing monitoring and assurance activities by the board of directors or executive committee."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-03.1",
+          "title": "IT.GOV-03.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.4.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-03.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.4.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Establish and maintain an approved risk management methodology and plan that is used to assess and treat cyber security risks."
+          }, {
+            "id": "IT.GOV-03.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.4.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.4.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-03.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.1.1"
+                } ],
+                "prose": "No risk management methodology approved by the organisation is in place."
+              }, {
+                "id": "IT.GOV-03.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.1.2"
+                } ],
+                "prose": "No current organisational risk register exists, or the register has not been reviewed within the cycle defined by the organisation."
+              }, {
+                "id": "IT.GOV-03.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.1.3"
+                } ],
+                "prose": "Risk treatment decisions are not documented."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.4.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-03.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.2.1"
+                } ],
+                "prose": "An approved risk management methodology exists but risk assessments have not been conducted within the defined cycle."
+              }, {
+                "id": "IT.GOV-03.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.2.2"
+                } ],
+                "prose": "A risk register exists but treatment plans are incomplete or have not been actioned."
+              }, {
+                "id": "IT.GOV-03.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.2.3"
+                } ],
+                "prose": "Risk assessments have been conducted but do not cover all in-scope assets."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.4.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-03.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.3.1"
+                } ],
+                "prose": "An approved risk management methodology and plan are in place and used to assess and treat security risks."
+              }, {
+                "id": "IT.GOV-03.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.3.2"
+                } ],
+                "prose": "A current risk register exists with documented and implemented treatment plans for all identified risks."
+              }, {
+                "id": "IT.GOV-03.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.4.2.2.3.3"
+                } ],
+                "prose": "Risk assessments have been conducted or reviewed within the assessment cycle defined by the organisation."
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "id": "GOV-11",
+        "class": "essentials-principle",
+        "title": "GOV-11 - Supplier cyber security assurance",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.5"
+        } ],
+        "parts": [ {
+          "id": "GOV-11.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.5.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "Systems (infrastructure, operating systems, applications and data) are delivered and supported by trustworthy suppliers whose cyber security practices are regularly verified or otherwise risk-assessed."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-11.1",
+          "title": "IT.GOV-11.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.5.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "links": [ {
+            "href": "#0c6c92ee-dc6c-571a-84d7-6c89841f9847",
+            "rel": "mitigated-technique",
+            "text": "Mitigated technique: Supply Chain Compromise"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-11.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.5.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Select and engage suppliers of software, hardware and services on the basis of a cyber supply chain risk assessment proportionate to the risk the supplier introduces, and retain appropriate assurance evidence to support the decision."
+          }, {
+            "id": "IT.GOV-11.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.5.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.1.1"
+                } ],
+                "prose": "No documented or approved governance process exists for evaluating the cyber security trustworthiness of suppliers."
+              }, {
+                "id": "IT.GOV-11.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.1.2"
+                } ],
+                "prose": "No cyber security evaluation is performed before suppliers are onboarded."
+              }, {
+                "id": "IT.GOV-11.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.1.3"
+                } ],
+                "prose": "Evaluation outcomes are not documented."
+              }, {
+                "id": "IT.GOV-11.1.NE-4",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.1.4"
+                } ],
+                "prose": "Findings from supplier evaluation outcomes are not used to inform supplier approval, contractual requirements or risk treatment decisions where concerns are identified."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.2.1"
+                } ],
+                "prose": "An evaluation process exists but is not consistently applied to all suppliers within scope."
+              }, {
+                "id": "IT.GOV-11.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.2.2"
+                } ],
+                "prose": "Evaluation is performed for some suppliers, but criteria are not documented or are inconsistently applied."
+              }, {
+                "id": "IT.GOV-11.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.2.3"
+                } ],
+                "prose": "Outcomes are documented but contractual arrangements do not reflect identified risks or required controls."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.3.1"
+                } ],
+                "prose": "A documented and approved governance process is in place and consistently applied."
+              }, {
+                "id": "IT.GOV-11.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.3.2"
+                } ],
+                "prose": "Cyber security trustworthiness evaluations are performed for all suppliers within scope prior to onboarding."
+              }, {
+                "id": "IT.GOV-11.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.3.3"
+                } ],
+                "prose": "Evaluation criteria are documented, approved and proportionate to the criticality of what the supplier delivers."
+              }, {
+                "id": "IT.GOV-11.1.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.2.2.3.4"
+                } ],
+                "prose": "Evaluation outcomes are documented, reflected in contractual arrangements and recorded in the organisation’s risk register where residual risk remains."
+              } ]
+            } ]
+          } ]
+        }, {
+          "id": "IT.GOV-11.2",
+          "title": "IT.GOV-11.2",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.5.3"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "links": [ {
+            "href": "#0c6c92ee-dc6c-571a-84d7-6c89841f9847",
+            "rel": "mitigated-technique",
+            "text": "Mitigated technique: Supply Chain Compromise"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-11.2.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.5.3.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Maintain current assurance that suppliers continue to meet their cyber security commitments, and act when that assurance lapses or the supplier’s risk changes."
+          }, {
+            "id": "IT.GOV-11.2.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.5.3.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.3.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.2.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.1.1"
+                } ],
+                "prose": "No process exists to obtain and risk-assess current supplier assurance evidence proportionate to supplier criticality and risk."
+              }, {
+                "id": "IT.GOV-11.2.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.1.2"
+                } ],
+                "prose": "No documented and approved governance process exists for maintaining assurance that suppliers meet their cyber security commitments."
+              }, {
+                "id": "IT.GOV-11.2.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.1.3"
+                } ],
+                "prose": "No actions are taken when supplier cyber security assurance lapses or supplier risk changes."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.3.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.2.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.2.1"
+                } ],
+                "prose": "Supplier assurance evidence is obtained for some suppliers, but coverage is incomplete or the evidence is not reviewed and actioned."
+              }, {
+                "id": "IT.GOV-11.2.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.2.2"
+                } ],
+                "prose": "Some findings are actioned but the response process is informal or inconsistent."
+              }, {
+                "id": "IT.GOV-11.2.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.2.3"
+                } ],
+                "prose": "A process exists but acceptable forms and currency of assurance evidence are not defined or applied consistently."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.5.3.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-11.2.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.3.1"
+                } ],
+                "prose": "Current assurance evidence is obtained from suppliers in proportion to their criticality and risk, and is reviewed for findings that affect the organisation."
+              }, {
+                "id": "IT.GOV-11.2.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.3.2"
+                } ],
+                "prose": "Material concerns are addressed through contractual remediation, compensating controls or supplier substitution within defined timeframes."
+              }, {
+                "id": "IT.GOV-11.2.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.5.3.2.3.3"
+                } ],
+                "prose": "A documented and approved governance process specifies the acceptable forms, scope and currency of supplier assurance evidence."
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "id": "GOV-14",
+        "class": "essentials-principle",
+        "title": "GOV-14 - Legacy system management",
+        "props": [ {
+          "name": "sort-id",
+          "value": "1.6"
+        } ],
+        "parts": [ {
+          "id": "GOV-14.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.6.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "Systems (infrastructure, operating systems, applications and data) that are not capable of meeting cyber security requirements are managed using compensating security controls, along with enhanced monitoring and assurance activities, to maintain an acceptable level of residual risk until they can be decommissioned or replaced."
+        } ],
+        "controls": [ {
+          "id": "IT.GOV-14.1",
+          "title": "IT.GOV-14.1",
+          "props": [ {
+            "name": "sort-id",
+            "value": "1.6.2"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.GOV-14.1.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.6.2.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Establish and maintain a process for identifying, assessing and treating cyber security risks associated with legacy systems and unsupported technologies through compensating controls, enhanced monitoring and assurance until the systems can be removed or replaced."
+          }, {
+            "id": "IT.GOV-14.1.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "1.6.2.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.6.2.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-14.1.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.1.1"
+                } ],
+                "prose": "No documented or approved governance process exists for identifying or managing legacy systems."
+              }, {
+                "id": "IT.GOV-14.1.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.1.2"
+                } ],
+                "prose": "Legacy systems are not formally identified within the environment."
+              }, {
+                "id": "IT.GOV-14.1.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.1.3"
+                } ],
+                "prose": "Cyber security risks associated with legacy systems are not assessed or are assessed informally."
+              }, {
+                "id": "IT.GOV-14.1.NE-4",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.1.4"
+                } ],
+                "prose": "There are no interim compensating controls to manage identified cyber security risks associated with legacy systems."
+              }, {
+                "id": "IT.GOV-14.1.NE-5",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.1.5"
+                } ],
+                "prose": "Legacy systems remain in operation indefinitely with no documented decommissioning, replacement or migration path."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.6.2.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-14.1.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.2.1"
+                } ],
+                "prose": "A process exists but the criteria for classifying a system as legacy are not documented or are inconsistently applied."
+              }, {
+                "id": "IT.GOV-14.1.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.2.2"
+                } ],
+                "prose": "Some legacy systems are identified but the inventory is incomplete or is not maintained."
+              }, {
+                "id": "IT.GOV-14.1.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.2.3"
+                } ],
+                "prose": "Risk assessments are conducted for some legacy systems but treatment decisions are not documented or approved."
+              }, {
+                "id": "IT.GOV-14.1.PE-4",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.2.4"
+                } ],
+                "prose": "Some compensating controls are in place to address risks associated with legacy systems, but coverage is not complete."
+              }, {
+                "id": "IT.GOV-14.1.PE-5",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.2.5"
+                } ],
+                "prose": "A path exists for some legacy systems but is not tracked to completion."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "1.6.2.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.GOV-14.1.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.3.1"
+                } ],
+                "prose": "A documented and approved governance process exists with clear criteria for classifying systems as legacy."
+              }, {
+                "id": "IT.GOV-14.1.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.3.2"
+                } ],
+                "prose": "Legacy systems are formally identified, inventoried and reviewed on a cycle defined by the organisation."
+              }, {
+                "id": "IT.GOV-14.1.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.3.3"
+                } ],
+                "prose": "Cyber security risks associated with legacy systems are assessed, treated and approved by an appropriate authority."
+              }, {
+                "id": "IT.GOV-14.1.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.3.4"
+                } ],
+                "prose": "Compensating controls are applied to manage cyber security risks for legacy systems while decommissioning or migration efforts are in progress."
+              }, {
+                "id": "IT.GOV-14.1.FE-5",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "1.6.2.2.3.5"
+                } ],
+                "prose": "A documented decommissioning, replacement or migration path exists for retained legacy systems and is tracked to completion."
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "id": "PRO",
+      "title": "Protect principles",
+      "props": [ {
+        "name": "sort-id",
+        "value": "3"
+      } ],
+      "groups": [ {
+        "id": "PRO-14",
+        "class": "essentials-principle",
+        "title": "PRO-14 - Cyber security awareness training",
+        "props": [ {
+          "name": "sort-id",
+          "value": "3.12"
+        } ],
+        "parts": [ {
+          "id": "PRO-14.overview",
+          "name": "overview",
+          "props": [ {
+            "name": "sort-id",
+            "value": "3.12.1"
+          }, {
+            "name": "label",
+            "value": "Principle"
+          } ],
+          "prose": "Personnel are provided with ongoing cyber security awareness training, including operational security considerations, tailored to their duties, access levels and current cyber threats."
+        } ],
+        "controls": [ {
+          "id": "IT.PRO-14.2",
+          "title": "IT.PRO-14.2",
+          "props": [ {
+            "name": "sort-id",
+            "value": "3.12.3"
+          }, {
+            "name": "domain",
+            "ns": "https://www.cyber.gov.au/ns/essentials/oscal/1.0",
+            "value": "governance-and-culture"
+          } ],
+          "parts": [ {
+            "id": "IT.PRO-14.2.action",
+            "name": "statement",
+            "class": "essentials-action",
+            "props": [ {
+              "name": "sort-id",
+              "value": "3.12.3.1"
+            }, {
+              "name": "label",
+              "value": "Action"
+            } ],
+            "prose": "Update and provide cyber security awareness training on a regular basis to reflect current threats and operational considerations."
+          }, {
+            "id": "IT.PRO-14.2.indicators-of-good-practice",
+            "name": "statement",
+            "class": "indicators-of-good-practice",
+            "title": "Indicators of Good Practice",
+            "props": [ {
+              "name": "sort-id",
+              "value": "3.12.3.2"
+            } ],
+            "parts": [ {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Not effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "3.12.3.2.1"
+              } ],
+              "parts": [ {
+                "id": "IT.PRO-14.2.NE-1",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.1.1"
+                } ],
+                "prose": "No cyber security awareness training program exists."
+              }, {
+                "id": "IT.PRO-14.2.NE-2",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.1.2"
+                } ],
+                "prose": "Cyber security awareness training is not reviewed or updated after initial deployment."
+              }, {
+                "id": "IT.PRO-14.2.NE-3",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.1.3"
+                } ],
+                "prose": "Lessons learnt from cyber security incidents are not incorporated into training content."
+              }, {
+                "id": "IT.PRO-14.2.NE-4",
+                "name": "item",
+                "class": "not-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.1.4"
+                } ],
+                "prose": "The cadence of review is not defined."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Partially effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "3.12.3.2.2"
+              } ],
+              "parts": [ {
+                "id": "IT.PRO-14.2.PE-1",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.2.1"
+                } ],
+                "prose": "Training is reviewed but updates do not reflect current threat intelligence, sector relevant adversary techniques or organisational changes."
+              }, {
+                "id": "IT.PRO-14.2.PE-2",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.2.2"
+                } ],
+                "prose": "Some lessons are incorporated but the process is informal, or coverage is limited to a small number of incidents."
+              }, {
+                "id": "IT.PRO-14.2.PE-3",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.2.3"
+                } ],
+                "prose": "Some changes are reflected, but training is not updated to address recently introduced systems or significant changes to working arrangements."
+              }, {
+                "id": "IT.PRO-14.2.PE-4",
+                "name": "item",
+                "class": "partially-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.2.4"
+                } ],
+                "prose": "A review cadence exists, but is not consistently met, or is not proportionate to the rate of change."
+              } ]
+            }, {
+              "name": "item",
+              "class": "indicator-group",
+              "title": "Fully effective",
+              "props": [ {
+                "name": "sort-id",
+                "value": "3.12.3.2.3"
+              } ],
+              "parts": [ {
+                "id": "IT.PRO-14.2.FE-1",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.3.1"
+                } ],
+                "prose": "Training content is reviewed and updated on a defined cycle, with updates reflecting current threat intelligence, adversary techniques relevant to the workforce and organisation’s operating context."
+              }, {
+                "id": "IT.PRO-14.2.FE-2",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.3.2"
+                } ],
+                "prose": "Lessons learnt from cyber security incidents within the organisation or its sector are systematically incorporated into training content."
+              }, {
+                "id": "IT.PRO-14.2.FE-3",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.3.3"
+                } ],
+                "prose": "Training reflects the systems, platforms and working arrangements that personnel currently interact with, including newly introduced platforms and changes to ways of working."
+              }, {
+                "id": "IT.PRO-14.2.FE-4",
+                "name": "item",
+                "class": "fully-effective-indicator-statement",
+                "props": [ {
+                  "name": "sort-id",
+                  "value": "3.12.3.2.3.4"
+                } ],
+                "prose": "The cadence of review is defined, proportionate to the rate of change in the threat environment, and consistently met."
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ],
+    "back-matter": {
+      "resources": [ {
+        "uuid": "0c6c92ee-dc6c-571a-84d7-6c89841f9847",
+        "title": "Supply Chain Compromise",
+        "rlinks": [ {
+          "href": "https://attack.mitre.org/versions/v19/techniques/T1195/"
+        } ]
+      }, {
+        "uuid": "b7754d04-b599-579d-a989-679fcaf58600",
+        "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15",
+        "props": [ {
+          "name": "published",
+          "value": "2026-10-15T00:30:23Z"
+        }, {
+          "name": "version",
+          "value": "v2026.10.15"
+        } ],
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml",
+          "media-type": "application/xml"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json",
+          "media-type": "application/json"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml",
+          "media-type": "application/oscal+yaml"
+        } ]
+      }, {
+        "uuid": "d1c97d9d-457b-5655-bbca-d92ac2bdf617",
+        "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile v2026.10.15",
+        "props": [ {
+          "name": "published",
+          "value": "2026-10-15T00:30:23Z"
+        }, {
+          "name": "version",
+          "value": "v2026.10.15"
+        } ],
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.xml",
+          "media-type": "application/xml"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.json",
+          "media-type": "application/json"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.yaml",
+          "media-type": "application/oscal+yaml"
+        } ]
+      }, {
+        "uuid": "44c90ca2-3da9-5876-9a2e-55e720afbb26",
+        "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog - latest version",
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml",
+          "media-type": "application/xml"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json",
+          "media-type": "application/json"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml",
+          "media-type": "application/oscal+yaml"
+        } ]
+      }, {
+        "uuid": "f9fb12d4-22f6-53a0-b59f-1841d79c2d82",
+        "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15 - predecessor version",
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml",
+          "media-type": "application/xml"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json",
+          "media-type": "application/json"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml",
+          "media-type": "application/oscal+yaml"
+        } ]
+      }, {
+        "uuid": "04399f63-8fcf-5868-846c-46b1a2d2c794",
+        "title": "Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15 - successor version",
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml",
+          "media-type": "application/xml"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json",
+          "media-type": "application/json"
+        }, {
+          "href": "https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml",
+          "media-type": "application/oscal+yaml"
+        } ]
+      }, {
+        "uuid": "211ff658-86c9-50e9-bacf-ee7f932ac402",
+        "title": "Assessment evidence guide for enterprise IT",
+        "props": [ {
+          "name": "published",
+          "value": "2026-10-15T00:00:00+11:00"
+        }, {
+          "name": "version",
+          "value": "2026-10-15"
+        } ],
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf",
+          "media-type": "application/pdf"
+        } ]
+      }, {
+        "uuid": "def78f32-7cf5-50bc-890e-20875010bc73",
+        "title": "Essentials OSCAL NS 1.0",
+        "rlinks": [ {
+          "href": "https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+        } ]
+      } ]
+    }
+  }
+}

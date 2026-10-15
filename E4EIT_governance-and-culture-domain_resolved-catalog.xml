@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="49a3b372-5716-5165-aa5c-f7daaca6731f">
+   <metadata>
+      <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog</title>
+      <published>2026-10-15T00:30:23Z</published>
+      <last-modified>2026-10-15T00:30:23Z</last-modified>
+      <version>2026.10.15</version>
+      <oscal-version>1.2.3</oscal-version>
+      <prop name="domain"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="governance-and-culture"/>
+      <prop name="domain-description"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="Policies, risk management processes, roles and security culture that underpin the cyber security program."/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-1"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-2"/>
+      <prop name="domain-priority-phase"
+            ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+            value="phase-3"/>
+      <prop name="resolution-tool"
+            value="OSCAL Profile Resolver XSLT Pipeline OPRXP"/>
+      <link href="#d1c97d9d-457b-5655-bbca-d92ac2bdf617" rel="source-profile"/>
+      <link rel="canonical" href="#b7754d04-b599-579d-a989-679fcaf58600"/>
+      <link rel="latest-version" href="#44c90ca2-3da9-5876-9a2e-55e720afbb26"/>
+      <link rel="predecessor-version" href="#f9fb12d4-22f6-53a0-b59f-1841d79c2d82"/>
+      <link rel="successor-version" href="#04399f63-8fcf-5868-846c-46b1a2d2c794"/>
+      <link rel="alternate" href="#211ff658-86c9-50e9-bacf-ee7f932ac402"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="aa1aa1b7-e49e-526e-8649-02711a826b8a">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="website"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>aa1aa1b7-e49e-526e-8649-02711a826b8a</party-uuid>
+      </responsible-party>
+      <remarks>
+         <p>Consumers of this file should refer to the <a href="#def78f32-7cf5-50bc-890e-20875010bc73">Essentials OSCAL NS 1.0</a> page for information regarding the Essentials specific representation used in this OSCAL file.</p>
+      </remarks>
+   </metadata>
+   <group id="GOV">
+      <title>Govern principles</title>
+      <prop name="sort-id" value="1"/>
+      <group id="GOV-01" class="essentials-principle">
+         <title>GOV-01 - Executive cyber security accountability</title>
+         <prop name="sort-id" value="1.1"/>
+         <part id="GOV-01.overview" name="overview">
+            <prop name="sort-id" value="1.1.1"/>
+            <prop name="label" value="Principle"/>
+            <p>The board of directors or executive committee is accountable for cyber security.</p>
+         </part>
+         <control id="IT.GOV-01.1">
+            <title>IT.GOV-01.1</title>
+            <prop name="sort-id" value="1.1.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-01.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.1.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Formally define and establish executive and board-level accountabilities for cyber security, including setting, monitoring and adjusting organisational risk appetite, and review these accountabilities at a defined cadence.</p>
+            </part>
+            <part id="IT.GOV-01.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.1.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.1.2.2.1"/>
+                  <part id="IT.GOV-01.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.1.1"/>
+                     <p>No named executive or board member is accountable for cyber security.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.1.2"/>
+                     <p>Cyber security accountability exists only informally, or is assumed rather than documented.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.1.3"/>
+                     <p>No evidence of cyber security reporting to the executive board.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.1.4"/>
+                     <p>Organisational risk appetite is not set.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.1.2.2.2"/>
+                  <part id="IT.GOV-01.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.2.1"/>
+                     <p>A named executive or board member is accountable for cyber security, but reporting obligations are not formally defined.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.2.2"/>
+                     <p>Board-level reporting on cyber security occurs but is ad hoc rather than on a defined schedule.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.2.3"/>
+                     <p>Accountability is documented but has not been reviewed within the organisationally defined cadence or following relevant organisational restructuring or leadership changes.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.2.4"/>
+                     <p>Organisational risk appetite is set but is not monitored or adjusted over time.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.1.2.2.3"/>
+                  <part id="IT.GOV-01.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.3.1"/>
+                     <p>A named executive or board member has documented accountability for cyber security with defined reporting obligations.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.3.2"/>
+                     <p>Regular reporting to the board or executives occurs on a defined cadence with evidence of reporting artefacts.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.3.3"/>
+                     <p>Accountability arrangements are reviewed when organisational structures or leadership changes occur.</p>
+                  </part>
+                  <part id="IT.GOV-01.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.1.2.2.3.4"/>
+                     <p>Organisational risk appetite is set and is monitored and adjusted over time as required.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="GOV-08" class="essentials-principle">
+         <title>GOV-08 - Executive artificial intelligence accountability</title>
+         <prop name="sort-id" value="1.2"/>
+         <part id="GOV-08.overview" name="overview">
+            <prop name="sort-id" value="1.2.1"/>
+            <prop name="label" value="Principle"/>
+            <p>The board of directors or executive committee is accountable for ensuring that artificial intelligence is secure, controllable, human-supervised and used in an ethical and accountable manner.</p>
+         </part>
+         <control id="IT.GOV-08.1">
+            <title>IT.GOV-08.1</title>
+            <prop name="sort-id" value="1.2.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-08.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.2.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Establish and maintain executive accountability for the use, governance and risk management of artificial intelligence within the organisation.</p>
+            </part>
+            <part id="IT.GOV-08.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.2.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.2.2.2.1"/>
+                  <part id="IT.GOV-08.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.1.1"/>
+                     <p>No named executive is accountable for the use, governance or risk management of artificial intelligence.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.1.2"/>
+                     <p>Artificial intelligence is used within the organisation with no approval, risk assessment or oversight.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.1.3"/>
+                     <p>Artificial intelligence related risks are not reflected in the organisation’s risk register.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.1.4"/>
+                     <p>Artificial intelligence use and governance arrangements have not been reviewed within the schedule defined by the organisation.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.2.2.2.2"/>
+                  <part id="IT.GOV-08.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.2.1"/>
+                     <p>A named executive is accountable for artificial intelligence but the governance process is informal or undocumented.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.2.2"/>
+                     <p>Approval and risk assessment occur for some artificial intelligence use cases but coverage is inconsistent across internally developed, third-party and embedded artificial intelligence.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.2.3"/>
+                     <p>Some artificial intelligence related risks are recorded but the organisation’s risk register does not capture all known artificial intelligence use cases.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.2.4"/>
+                     <p>Reviews occur within the schedule defined by the organisation, but do not consistently address changes in artificial intelligence capability, threat environment or organisational use.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.2.2.2.3"/>
+                  <part id="IT.GOV-08.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.3.1"/>
+                     <p>A named executive has accountability for artificial intelligence, supported by an approved governance process that has evidence of being followed.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.3.2"/>
+                     <p>The governance process addresses approval, risk assessment and oversight for internally developed, third-party and embedded artificial intelligence use cases.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.3.3"/>
+                     <p>Artificial intelligence related risks are reflected in the organisation’s risk register and reported through standard governance channels.</p>
+                  </part>
+                  <part id="IT.GOV-08.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.2.2.2.3.4"/>
+                     <p>Reviews of artificial intelligence use and governance arrangements are conducted on a schedule defined by the organisation and consistently address changes in artificial intelligence capability, threat environment or organisational use.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="GOV-04" class="essentials-principle">
+         <title>GOV-04 - Cyber security resourcing</title>
+         <prop name="sort-id" value="1.3"/>
+         <part id="GOV-04.overview" name="overview">
+            <prop name="sort-id" value="1.3.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Suitable and sufficient personnel and resources are identified, acquired and maintained in support of cyber security activities.</p>
+         </part>
+         <control id="IT.GOV-04.1">
+            <title>IT.GOV-04.1</title>
+            <prop name="sort-id" value="1.3.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-04.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.3.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Assign sufficient cyber security personnel and resources with the required skills to operate, monitor, maintain and manage the lifecycle of security controls and define cyber security responsibilities within role descriptions.</p>
+            </part>
+            <part id="IT.GOV-04.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.3.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.3.2.2.1"/>
+                  <part id="IT.GOV-04.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.1.1"/>
+                     <p>Cyber security functions are staffed on an ad hoc basis without reference to required skills or capacity.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.1.2"/>
+                     <p>Critical cyber security roles are unfilled with no approved recruitment plan.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.1.3"/>
+                     <p>No resourcing plan for cyber security personnel exists.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.3.2.2.2"/>
+                  <part id="IT.GOV-04.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.2.1"/>
+                     <p>Some critical roles are filled but identified skills gaps have no plan for remediation.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.2.2"/>
+                     <p>While assigned personnel provide some capability, there are gaps in capacity, resources, or expertise that hinder the operation, monitoring, maintenance, and lifecycle management of controls.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.2.3"/>
+                     <p>A resourcing plan exists but does not cover all required cyber security functions.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.2.4"/>
+                     <p>Outstanding cyber security positions are being actively recruited, but capacity or skills gaps remain.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.3.2.2.3"/>
+                  <part id="IT.GOV-04.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.3.1"/>
+                     <p>Sufficient cyber security personnel are assigned to operate, monitor, maintain and manage the lifecycle of controls across the organisation.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.3.2"/>
+                     <p>Skills gaps are identified and addressed through recruitment, training or contracted services.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.3.3"/>
+                     <p>A resourcing plan identifies all required cyber security personnel, roles, skills, resources and capacity.</p>
+                  </part>
+                  <part id="IT.GOV-04.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.2.2.3.4"/>
+                     <p>Cyber security responsibilities are defined within applicable role descriptions.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+         <control id="IT.GOV-04.2">
+            <title>IT.GOV-04.2</title>
+            <prop name="sort-id" value="1.3.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-04.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.3.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Periodically review cyber security resourcing against cyber threat trends, cyber security incident outcomes and organisational changes.</p>
+            </part>
+            <part id="IT.GOV-04.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.3.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.3.3.2.1"/>
+                  <part id="IT.GOV-04.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.1.1"/>
+                     <p>No review of cyber security resourcing has been conducted.</p>
+                  </part>
+                  <part id="IT.GOV-04.2.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.1.2"/>
+                     <p>Resourcing has not been reassessed following significant organisational or threat landscape changes.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.3.3.2.2"/>
+                  <part id="IT.GOV-04.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.2.1"/>
+                     <p>A review has been conducted but did not reference current threat trends, cyber security incident outcomes, or organisational changes.</p>
+                  </part>
+                  <part id="IT.GOV-04.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.2.2"/>
+                     <p>Review outcomes have identified required adjustments, but those adjustments have not been made.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.3.3.2.3"/>
+                  <part id="IT.GOV-04.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.3.1"/>
+                     <p>A resourcing review has been completed within the review period defined by the organisation.</p>
+                  </part>
+                  <part id="IT.GOV-04.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.3.2"/>
+                     <p>The review references current threat trends, cyber security incident outcomes and organisational changes.</p>
+                  </part>
+                  <part id="IT.GOV-04.2.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.3.3.2.3.3"/>
+                     <p>Documented review outcomes include resourcing adjustments that are implemented within timeframes defined by the organisation, or formally risk accepted by an appropriate authority.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="GOV-03" class="essentials-principle">
+         <title>GOV-03 - Security risk management assurance</title>
+         <prop name="sort-id" value="1.4"/>
+         <part id="GOV-03.overview" name="overview">
+            <prop name="sort-id" value="1.4.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Security risk management activities for an organisation and their systems (infrastructure, operating systems, applications and data) are embedded into organisational risk management frameworks and subject to ongoing monitoring and assurance activities by the board of directors or executive committee.</p>
+         </part>
+         <control id="IT.GOV-03.1">
+            <title>IT.GOV-03.1</title>
+            <prop name="sort-id" value="1.4.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-03.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.4.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Establish and maintain an approved risk management methodology and plan that is used to assess and treat cyber security risks.</p>
+            </part>
+            <part id="IT.GOV-03.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.4.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.4.2.2.1"/>
+                  <part id="IT.GOV-03.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.1.1"/>
+                     <p>No risk management methodology approved by the organisation is in place.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.1.2"/>
+                     <p>No current organisational risk register exists, or the register has not been reviewed within the cycle defined by the organisation.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.1.3"/>
+                     <p>Risk treatment decisions are not documented.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.4.2.2.2"/>
+                  <part id="IT.GOV-03.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.2.1"/>
+                     <p>An approved risk management methodology exists but risk assessments have not been conducted within the defined cycle.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.2.2"/>
+                     <p>A risk register exists but treatment plans are incomplete or have not been actioned.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.2.3"/>
+                     <p>Risk assessments have been conducted but do not cover all in-scope assets.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.4.2.2.3"/>
+                  <part id="IT.GOV-03.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.3.1"/>
+                     <p>An approved risk management methodology and plan are in place and used to assess and treat security risks.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.3.2"/>
+                     <p>A current risk register exists with documented and implemented treatment plans for all identified risks.</p>
+                  </part>
+                  <part id="IT.GOV-03.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.4.2.2.3.3"/>
+                     <p>Risk assessments have been conducted or reviewed within the assessment cycle defined by the organisation.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="GOV-11" class="essentials-principle">
+         <title>GOV-11 - Supplier cyber security assurance</title>
+         <prop name="sort-id" value="1.5"/>
+         <part id="GOV-11.overview" name="overview">
+            <prop name="sort-id" value="1.5.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Systems (infrastructure, operating systems, applications and data) are delivered and supported by trustworthy suppliers whose cyber security practices are regularly verified or otherwise risk-assessed.</p>
+         </part>
+         <control id="IT.GOV-11.1">
+            <title>IT.GOV-11.1</title>
+            <prop name="sort-id" value="1.5.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <link rel="mitigated-technique" href="#0c6c92ee-dc6c-571a-84d7-6c89841f9847">
+               <text>Mitigated technique: Supply Chain Compromise</text>
+            </link>
+            <part id="IT.GOV-11.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.5.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Select and engage suppliers of software, hardware and services on the basis of a cyber supply chain risk assessment proportionate to the risk the supplier introduces, and retain appropriate assurance evidence to support the decision.</p>
+            </part>
+            <part id="IT.GOV-11.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.5.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.5.2.2.1"/>
+                  <part id="IT.GOV-11.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.1.1"/>
+                     <p>No documented or approved governance process exists for evaluating the cyber security trustworthiness of suppliers.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.1.2"/>
+                     <p>No cyber security evaluation is performed before suppliers are onboarded.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.1.3"/>
+                     <p>Evaluation outcomes are not documented.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.1.4"/>
+                     <p>Findings from supplier evaluation outcomes are not used to inform supplier approval, contractual requirements or risk treatment decisions where concerns are identified.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.5.2.2.2"/>
+                  <part id="IT.GOV-11.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.2.1"/>
+                     <p>An evaluation process exists but is not consistently applied to all suppliers within scope.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.2.2"/>
+                     <p>Evaluation is performed for some suppliers, but criteria are not documented or are inconsistently applied.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.2.3"/>
+                     <p>Outcomes are documented but contractual arrangements do not reflect identified risks or required controls.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.5.2.2.3"/>
+                  <part id="IT.GOV-11.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.3.1"/>
+                     <p>A documented and approved governance process is in place and consistently applied.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.3.2"/>
+                     <p>Cyber security trustworthiness evaluations are performed for all suppliers within scope prior to onboarding.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.3.3"/>
+                     <p>Evaluation criteria are documented, approved and proportionate to the criticality of what the supplier delivers.</p>
+                  </part>
+                  <part id="IT.GOV-11.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.2.2.3.4"/>
+                     <p>Evaluation outcomes are documented, reflected in contractual arrangements and recorded in the organisation’s risk register where residual risk remains.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+         <control id="IT.GOV-11.2">
+            <title>IT.GOV-11.2</title>
+            <prop name="sort-id" value="1.5.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <link rel="mitigated-technique" href="#0c6c92ee-dc6c-571a-84d7-6c89841f9847">
+               <text>Mitigated technique: Supply Chain Compromise</text>
+            </link>
+            <part id="IT.GOV-11.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.5.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Maintain current assurance that suppliers continue to meet their cyber security commitments, and act when that assurance lapses or the supplier’s risk changes.</p>
+            </part>
+            <part id="IT.GOV-11.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.5.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.5.3.2.1"/>
+                  <part id="IT.GOV-11.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.1.1"/>
+                     <p>No process exists to obtain and risk-assess current supplier assurance evidence proportionate to supplier criticality and risk.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.1.2"/>
+                     <p>No documented and approved governance process exists for maintaining assurance that suppliers meet their cyber security commitments.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.1.3"/>
+                     <p>No actions are taken when supplier cyber security assurance lapses or supplier risk changes.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.5.3.2.2"/>
+                  <part id="IT.GOV-11.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.2.1"/>
+                     <p>Supplier assurance evidence is obtained for some suppliers, but coverage is incomplete or the evidence is not reviewed and actioned.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.2.2"/>
+                     <p>Some findings are actioned but the response process is informal or inconsistent.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.2.3"/>
+                     <p>A process exists but acceptable forms and currency of assurance evidence are not defined or applied consistently.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.5.3.2.3"/>
+                  <part id="IT.GOV-11.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.3.1"/>
+                     <p>Current assurance evidence is obtained from suppliers in proportion to their criticality and risk, and is reviewed for findings that affect the organisation.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.3.2"/>
+                     <p>Material concerns are addressed through contractual remediation, compensating controls or supplier substitution within defined timeframes.</p>
+                  </part>
+                  <part id="IT.GOV-11.2.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.5.3.2.3.3"/>
+                     <p>A documented and approved governance process specifies the acceptable forms, scope and currency of supplier assurance evidence.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+      <group id="GOV-14" class="essentials-principle">
+         <title>GOV-14 - Legacy system management</title>
+         <prop name="sort-id" value="1.6"/>
+         <part id="GOV-14.overview" name="overview">
+            <prop name="sort-id" value="1.6.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Systems (infrastructure, operating systems, applications and data) that are not capable of meeting cyber security requirements are managed using compensating security controls, along with enhanced monitoring and assurance activities, to maintain an acceptable level of residual risk until they can be decommissioned or replaced.</p>
+         </part>
+         <control id="IT.GOV-14.1">
+            <title>IT.GOV-14.1</title>
+            <prop name="sort-id" value="1.6.2"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.GOV-14.1.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="1.6.2.1"/>
+               <prop name="label" value="Action"/>
+               <p>Establish and maintain a process for identifying, assessing and treating cyber security risks associated with legacy systems and unsupported technologies through compensating controls, enhanced monitoring and assurance until the systems can be removed or replaced.</p>
+            </part>
+            <part id="IT.GOV-14.1.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="1.6.2.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="1.6.2.2.1"/>
+                  <part id="IT.GOV-14.1.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.1.1"/>
+                     <p>No documented or approved governance process exists for identifying or managing legacy systems.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.1.2"/>
+                     <p>Legacy systems are not formally identified within the environment.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.1.3"/>
+                     <p>Cyber security risks associated with legacy systems are not assessed or are assessed informally.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.1.4"/>
+                     <p>There are no interim compensating controls to manage identified cyber security risks associated with legacy systems.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.NE-5"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.1.5"/>
+                     <p>Legacy systems remain in operation indefinitely with no documented decommissioning, replacement or migration path.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="1.6.2.2.2"/>
+                  <part id="IT.GOV-14.1.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.2.1"/>
+                     <p>A process exists but the criteria for classifying a system as legacy are not documented or are inconsistently applied.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.2.2"/>
+                     <p>Some legacy systems are identified but the inventory is incomplete or is not maintained.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.2.3"/>
+                     <p>Risk assessments are conducted for some legacy systems but treatment decisions are not documented or approved.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.2.4"/>
+                     <p>Some compensating controls are in place to address risks associated with legacy systems, but coverage is not complete.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.PE-5"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.2.5"/>
+                     <p>A path exists for some legacy systems but is not tracked to completion.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="1.6.2.2.3"/>
+                  <part id="IT.GOV-14.1.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.3.1"/>
+                     <p>A documented and approved governance process exists with clear criteria for classifying systems as legacy.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.3.2"/>
+                     <p>Legacy systems are formally identified, inventoried and reviewed on a cycle defined by the organisation.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.3.3"/>
+                     <p>Cyber security risks associated with legacy systems are assessed, treated and approved by an appropriate authority.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.3.4"/>
+                     <p>Compensating controls are applied to manage cyber security risks for legacy systems while decommissioning or migration efforts are in progress.</p>
+                  </part>
+                  <part id="IT.GOV-14.1.FE-5"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="1.6.2.2.3.5"/>
+                     <p>A documented decommissioning, replacement or migration path exists for retained legacy systems and is tracked to completion.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <group id="PRO">
+      <title>Protect principles</title>
+      <prop name="sort-id" value="3"/>
+      <group id="PRO-14" class="essentials-principle">
+         <title>PRO-14 - Cyber security awareness training</title>
+         <prop name="sort-id" value="3.12"/>
+         <part id="PRO-14.overview" name="overview">
+            <prop name="sort-id" value="3.12.1"/>
+            <prop name="label" value="Principle"/>
+            <p>Personnel are provided with ongoing cyber security awareness training, including operational security considerations, tailored to their duties, access levels and current cyber threats.</p>
+         </part>
+         <control id="IT.PRO-14.2">
+            <title>IT.PRO-14.2</title>
+            <prop name="sort-id" value="3.12.3"/>
+            <prop name="domain"
+                  ns="https://www.cyber.gov.au/ns/essentials/oscal/1.0"
+                  value="governance-and-culture"/>
+            <part id="IT.PRO-14.2.action" name="statement" class="essentials-action">
+               <prop name="sort-id" value="3.12.3.1"/>
+               <prop name="label" value="Action"/>
+               <p>Update and provide cyber security awareness training on a regular basis to reflect current threats and operational considerations.</p>
+            </part>
+            <part id="IT.PRO-14.2.indicators-of-good-practice"
+                  name="statement"
+                  class="indicators-of-good-practice">
+               <title>Indicators of Good Practice</title>
+               <prop name="sort-id" value="3.12.3.2"/>
+               <part name="item" class="indicator-group">
+                  <title>Not effective</title>
+                  <prop name="sort-id" value="3.12.3.2.1"/>
+                  <part id="IT.PRO-14.2.NE-1"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.1.1"/>
+                     <p>No cyber security awareness training program exists.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.NE-2"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.1.2"/>
+                     <p>Cyber security awareness training is not reviewed or updated after initial deployment.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.NE-3"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.1.3"/>
+                     <p>Lessons learnt from cyber security incidents are not incorporated into training content.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.NE-4"
+                        name="item"
+                        class="not-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.1.4"/>
+                     <p>The cadence of review is not defined.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Partially effective</title>
+                  <prop name="sort-id" value="3.12.3.2.2"/>
+                  <part id="IT.PRO-14.2.PE-1"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.2.1"/>
+                     <p>Training is reviewed but updates do not reflect current threat intelligence, sector relevant adversary techniques or organisational changes.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.PE-2"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.2.2"/>
+                     <p>Some lessons are incorporated but the process is informal, or coverage is limited to a small number of incidents.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.PE-3"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.2.3"/>
+                     <p>Some changes are reflected, but training is not updated to address recently introduced systems or significant changes to working arrangements.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.PE-4"
+                        name="item"
+                        class="partially-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.2.4"/>
+                     <p>A review cadence exists, but is not consistently met, or is not proportionate to the rate of change.</p>
+                  </part>
+               </part>
+               <part name="item" class="indicator-group">
+                  <title>Fully effective</title>
+                  <prop name="sort-id" value="3.12.3.2.3"/>
+                  <part id="IT.PRO-14.2.FE-1"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.3.1"/>
+                     <p>Training content is reviewed and updated on a defined cycle, with updates reflecting current threat intelligence, adversary techniques relevant to the workforce and organisation’s operating context.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.FE-2"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.3.2"/>
+                     <p>Lessons learnt from cyber security incidents within the organisation or its sector are systematically incorporated into training content.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.FE-3"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.3.3"/>
+                     <p>Training reflects the systems, platforms and working arrangements that personnel currently interact with, including newly introduced platforms and changes to ways of working.</p>
+                  </part>
+                  <part id="IT.PRO-14.2.FE-4"
+                        name="item"
+                        class="fully-effective-indicator-statement">
+                     <prop name="sort-id" value="3.12.3.2.3.4"/>
+                     <p>The cadence of review is defined, proportionate to the rate of change in the threat environment, and consistently met.</p>
+                  </part>
+               </part>
+            </part>
+         </control>
+      </group>
+   </group>
+   <back-matter>
+      <resource uuid="0c6c92ee-dc6c-571a-84d7-6c89841f9847">
+         <title>Supply Chain Compromise</title>
+         <rlink href="https://attack.mitre.org/versions/v19/techniques/T1195/"/>
+      </resource>
+      <resource uuid="b7754d04-b599-579d-a989-679fcaf58600">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="d1c97d9d-457b-5655-bbca-d92ac2bdf617">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Profile v2026.10.15</title>
+         <prop name="published" value="2026-10-15T00:30:23Z"/>
+         <prop name="version" value="v2026.10.15"/>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/artifacts/E4EIT_governance-and-culture-domain_profile.yaml"/>
+      </resource>
+      <resource uuid="44c90ca2-3da9-5876-9a2e-55e720afbb26">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog - latest version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/latest-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="f9fb12d4-22f6-53a0-b59f-1841d79c2d82">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15 - predecessor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/predecessor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="04399f63-8fcf-5868-846c-46b1a2d2c794">
+         <title>Assessment evidence guide for enterprise IT - Governance and culture OSCAL Resolved Catalog v2026.10.15 - successor version</title>
+         <rlink media-type="application/xml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.xml"/>
+         <rlink media-type="application/json"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.json"/>
+         <rlink media-type="application/oscal+yaml"
+                href="https://www.cyber.gov.au/e4eit/oscal/v2026.10.15/successor-version/artifacts/E4EIT_governance-and-culture-domain_resolved-catalog.yaml"/>
+      </resource>
+      <resource uuid="211ff658-86c9-50e9-bacf-ee7f932ac402">
+         <title>Assessment evidence guide for enterprise IT</title>
+         <prop name="published" value="2026-10-15T00:00:00+11:00"/>
+         <prop name="version" value="2026-10-15"/>
+         <rlink media-type="application/pdf"
+                href="https://www.cyber.gov.au/e4eit/pdf/v2026.10.15-pdf"/>
+      </resource>
+      <resource uuid="def78f32-7cf5-50bc-890e-20875010bc73">
+         <title>Essentials OSCAL NS 1.0</title>
+         <rlink href="https://www.cyber.gov.au/ns/essentials/oscal/1.0"/>
+      </resource>
+   </back-matter>
+</catalog>
